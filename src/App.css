@@ -16,11 +16,15 @@
 .title {
   margin: 0 auto;
   position: relative;
-  top: 25%;
   font-size: 7vw;
   color: ghostwhite;
   font-family: Simplifica;
   letter-spacing: 15px;
+}
+
+.animated {
+  position: relative;
+  top: 25%;
 }
 
 .subtitle {
