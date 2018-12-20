@@ -1,6 +1,6 @@
-.App {
+.titlePage {
   text-align: center;
-  background-image: url("./computerStation.jpeg");
+  background-image: url("../src/computerStation.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
