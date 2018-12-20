@@ -9,6 +9,9 @@ export default class TitlePage extends Component {
                     <h1 className="title">AMIT PATEL</h1>         
                 </Animated>
                 <h3 className="subtitle typewriter">&lt;FRONT END DEVELOPER&gt;</h3>
+                <div className="button">
+                    <a href="#" className="btn btn-white btn-animated">Skills</a>                
+                </div>
             </div>
         );
     }

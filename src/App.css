@@ -16,10 +16,10 @@
 .title {
   margin: 0 auto;
   position: relative;
-  font-size: 10vw;
+  font-size: 8vw;
   color: ghostwhite;
   font-family: Simplifica;
-  letter-spacing: 15px;
+  letter-spacing: 20px;
 }
 
 .animated {
@@ -44,6 +44,7 @@
   animation: 
     typing 3.5s steps(40),
     blink-caret .75s step-end infinite;
+
 }
 
 /* The typing effect */
@@ -66,4 +67,78 @@
   }
 } */
 
+.button {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+}
 
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  /* position: absolute;
+  top: 60%;
+  right: 40%;
+  left: 40%; */
+  width: 100px;
+  border-radius: 100px;
+  transition: all .2s;
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn-white {
+  background-color: white;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn-white::after {
+  background-color: white;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom .5s ease-out 3s;
+  animation-fill-mode: backwards;
+}
