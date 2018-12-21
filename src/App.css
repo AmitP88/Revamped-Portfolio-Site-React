@@ -68,9 +68,9 @@
 } */
 
 .button {
-  position: absolute;
-  left: 40%;
-  top: 60%;
+  position: relative;
+  top: 40%;
+  margin: 0 auto;
 }
 
 @keyframes moveInBottom {
