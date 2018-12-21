@@ -10,7 +10,7 @@ export default class TitlePage extends Component {
                 </Animated>
                 <h3 className="subtitle typewriter">&lt;FRONT END DEVELOPER&gt;</h3>
                 <div className="button">
-                    <a href="#" className="btn btn-white btn-animated">Skills</a>                
+                    <a href="#" className="btn btn-white btn-animated">{this.props.buttonName}</a>                
                 </div>
             </div>
         );
