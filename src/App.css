@@ -1,6 +1,6 @@
 .titlePage {
   text-align: center;
-  background-image: url("../src/computerStation.jpeg");
+  background-image: linear-gradient(to left bottom, rgba(111, 158, 188, 0.6), rgba(29, 45, 61, 0.6)), url("../src/computerStation.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -103,12 +103,12 @@
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  box-shadow: 0 20px 30px rgba(0,0,0,.2);
 }
 
 .btn:active {
   transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
 .btn-white {
