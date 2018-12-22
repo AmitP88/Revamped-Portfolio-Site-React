@@ -203,20 +203,20 @@ img {
 .Projects-button {
   margin: 0 auto;
   position: relative;
-  top: 20%;
+  top: 10%;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 510px){
   .skill {
     margin: 10%;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
 
   img {
     margin-top: 0;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
 
   .skill h3 {
