@@ -224,3 +224,9 @@ img {
     color: whitesmoke;
   }
 }
+
+@media only screen and (min-width: 510px) and (max-width: 1023px){
+  .Projects-button {
+    top: 10%;
+  }
+}
