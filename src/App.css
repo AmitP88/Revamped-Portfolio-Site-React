@@ -206,7 +206,11 @@ img {
   top: 10%;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 510px){
+@media only screen and (min-width: 200px) and (max-width: 509px){
+  .row {
+    margin-top: 20px;
+  }
+
   .skill {
     margin: 10%;
     width: 70px;
@@ -222,6 +226,17 @@ img {
   .skill h3 {
     font-size: 4vw;
     color: whitesmoke;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 509px){
+  .row {
+    margin-top: 15px;
+    top: 0;
+  }
+
+  .Projects-button {
+    top: 5%;
   }
 }
 
