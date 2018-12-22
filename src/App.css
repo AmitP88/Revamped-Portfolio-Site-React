@@ -203,7 +203,6 @@ img {
 .Projects-button {
   margin: 0 auto;
   position: relative;
-  top: 10%;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 509px){
@@ -227,6 +226,10 @@ img {
     font-size: 4vw;
     color: whitesmoke;
   }
+
+  .Projects-button {
+    top: 10%;
+  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 509px){
@@ -243,5 +246,11 @@ img {
 @media only screen and (min-width: 510px) and (max-width: 1023px){
   .Projects-button {
     top: 10%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Projects-button {
+    top: 25%;
   }
 }
