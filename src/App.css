@@ -152,12 +152,16 @@ html, body {
 /* Skills */
 .Skills-container {
   text-align: center;
-  background-color: aliceblue;
+
+  background: #360033; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #360033, #0b8793); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #360033, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .Skills-title {
   font-family: Consolas, monaco, monospace;
-  text-shadow: 5px 2px lightgrey;
+  text-shadow: 2px 0 lightgrey;
   letter-spacing: 20px;
   font-size: 4vw;
   margin: 0 auto;
