@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <TitlePage buttonName="Skills" />
-        <Skills />
+        <Skills buttonName="Projects" />
       </div>
     );
   }

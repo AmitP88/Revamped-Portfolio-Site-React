@@ -14,7 +14,10 @@ export default class Skills extends Component {
                     <div className="skill"></div>
                     <div className="skill"></div>
                     <div className="skill"></div>
-                </div>               
+                </div>
+                <div className="button">
+                    <a href="#" className="btn btn-white btn-animated">{this.props.buttonName}</a>                
+                </div>            
             </div>
         );
     }
