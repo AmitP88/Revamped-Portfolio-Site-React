@@ -10,7 +10,21 @@ export default class Projects extends Component {
                 <Animated className="projects-animated" animationIn="fadeInDown" isVisible={true}>
                     <h1 className="Projects-title">PROJECTS</h1>
                 </Animated>
-                <ProjectCard />
+                <div className="cards-container">
+                    <div className="cards-row">
+                        <ProjectCard />
+                        <ProjectCard />
+                        <ProjectCard />
+                    </div>
+                    <div className="cards-row">
+                        <ProjectCard />
+                        <ProjectCard />
+                        <ProjectCard />
+                    </div>                
+                </div>
+                <div className="Certifications-button">
+                    <a href="#" className="btn btn-white btn-animated">{this.props.buttonName}</a>                
+                </div> 
             </div>
         );
     }

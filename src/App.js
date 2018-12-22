@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <TitlePage buttonName="Skills" />
         <Skills buttonName="Projects" />
-        <Projects />
+        <Projects buttonName="Certifications" />
       </div>
     );
   }

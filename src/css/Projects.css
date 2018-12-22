@@ -1,14 +1,32 @@
 .Projects-container {
     width: 100vw;
-    height: 100vh;
+    height: 185vh;
     background-color: aliceblue;
     text-align: center;
 }
 
 .projects-animated {
-    top: 10%;
+    top: 5%;
 }
 
 .Projects-title {
     margin: 0 auto;
+}
+
+.cards-container {
+    position: relative;
+    top: 5%;
+}
+
+.cards-row {
+    width: 90vw;
+    margin: 5%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Certifications-button {
+    margin: 0 auto;
+    position: relative;
 }
