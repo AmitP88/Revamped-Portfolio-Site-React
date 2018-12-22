@@ -151,6 +151,7 @@ html, body {
 
 /* Skills */
 .Skills-container {
+  height: 100vh;
   text-align: center;
   background-image: linear-gradient(to top right, rgba(54, 0, 51, 0.7), rgba(11, 135, 147, 0.7)), url('../src//images/laptop.jpg'); /* fallback for old browsers */
   background-size: cover;
@@ -181,6 +182,8 @@ html, body {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
+  position: relative;
+  top: 5%;
 }
 
 .skill {
@@ -198,6 +201,7 @@ img {
 }
 
 .Projects-button {
-  margin-top: 10%;
-  padding-bottom: 5%;
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
 }

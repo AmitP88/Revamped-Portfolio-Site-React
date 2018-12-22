@@ -46,14 +46,12 @@ export default class Skills extends Component {
                         <img src={logos.Redux} alt={Object.keys(logos)[4]} />
                         <h3>{Object.keys(logos)[4]}</h3>
                     </div>
-                </div>
-                <div className="row">
                     <div className="skill">
                         <img src={logos.D3} alt={Object.keys(logos)[5]} />
                         <h3>{Object.keys(logos)[5]}</h3>
-                    </div>
+                    </div>                    
                 </div>
-                <div className="button Projects-button">
+                <div className="Projects-button">
                     <a href="#" className="btn btn-white btn-animated">{this.props.buttonName}</a>                
                 </div>            
             </div>
