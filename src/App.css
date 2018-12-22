@@ -3,60 +3,10 @@ html, body {
   overflow-x: hidden;
 }
 
-.titlePage {
-  text-align: center;
-  background-image: linear-gradient(to left bottom, rgba(111, 158, 188, 0.6), rgba(29, 45, 61, 0.6)), url("../src/images/computerStation.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100vh;
-}
-
-@font-face {
-  font-family: Simplifica;
-  src: url(SIMPLIFICA.ttf);
-}
-
-.title {
-  margin: 0 auto;
-  position: relative;
-  font-size: 8vw;
-  color: ghostwhite;
-  font-family: Simplifica;
-  letter-spacing: 20px;
-}
-
 .animated {
   position: relative;
   top: 20%;
   margin-left: 3%;
-}
-
-.subtitle {
-  font-family: Consolas, monaco, monospace;
-  color: ghostwhite;
-  position: relative;
-  top: 23%;
-  font-size: 3.5vw;
-  margin-right: 2%;
-}
-
-.typewriter {
-  margin-left: 1%;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40),
-    blink-caret .75s step-end infinite;
-
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 70% }
 }
 
 /* .App-logo {

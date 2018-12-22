@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Animated } from 'react-animated-css';
+import '../css/TitlePage.css';
 
 export default class TitlePage extends Component {
     render(){
