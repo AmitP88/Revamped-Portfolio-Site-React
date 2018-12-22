@@ -152,11 +152,10 @@ html, body {
 /* Skills */
 .Skills-container {
   text-align: center;
-
-  background: #360033; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #360033, #0b8793); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top right, #360033, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-image: linear-gradient(to top right, rgba(54, 0, 51, 0.9), rgba(11, 135, 147, 0.9)), url('../src//images/laptop.jpg'); /* fallback for old browsers */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .Skills-title {
