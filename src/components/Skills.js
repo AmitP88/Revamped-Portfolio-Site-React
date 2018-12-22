@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import { Animated } from 'react-animated-css';
 
 // Import logo images
-import HTML5_Logo from '../images/HTML_Logo.png';
-import CSS3_Logo from '../images/CSS_Logo.png';
+import HTML5_Logo_notext from '../images/HTML_Logo_notext.png';
+import CSS3_Logo_notext from '../images/CSS_Logo_notext.png';
 import JavaScript_Logo from '../images/JavaScript_Logo.png';
 import React_Logo from '../images/React_Logo.png';
 import Redux_Logo from '../images/Redux_Logo.png';
 import D3_Logo from '../images/D3_Logo.png';
 
 const logos = {
-    HTML5: HTML5_Logo,
-    CSS3: CSS3_Logo,
+    HTML5: HTML5_Logo_notext,
+    CSS3: CSS3_Logo_notext,
     JavaScript: JavaScript_Logo,
     React: React_Logo,
     Redux: Redux_Logo,
