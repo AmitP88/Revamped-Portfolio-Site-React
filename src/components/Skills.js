@@ -36,7 +36,7 @@ export default class Skills extends Component {
                     </div>
                     <div className="skill">
                         <img src={logos.JavaScript} alt={Object.keys(logos)[2]} />
-                        <h3>{Object.keys(logos)[2]}</h3>
+                        <h3>JavaScript(ES6)</h3>
                     </div>
                     <div className="skill">
                         <img src={logos.React} alt={Object.keys(logos)[3]} />
