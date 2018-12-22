@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import '../src/css/media_queries.css';
 import TitlePage from './components/TitlePage';
 import Skills from './components/Skills';
+
 
 class App extends Component {
   render() {
