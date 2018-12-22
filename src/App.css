@@ -152,6 +152,7 @@ html, body {
 /* Skills */
 .Skills-container {
   text-align: center;
+  background-color: whitesmoke;
 }
 
 .Skills-title {
@@ -159,6 +160,8 @@ html, body {
   text-shadow: 5px 2px lightgrey;
   letter-spacing: 20px;
   font-size: 4vw;
+  margin: 0 auto;
+  padding-top: 5%;
 }
 
 .skills-animated {
@@ -193,5 +196,5 @@ img {
 
 .Projects-button {
   margin-top: 10%;
-  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
