@@ -5,7 +5,7 @@ html, body {
 
 .titlePage {
   text-align: center;
-  background-image: linear-gradient(to left bottom, rgba(111, 158, 188, 0.6), rgba(29, 45, 61, 0.6)), url("../src/computerStation.jpeg");
+  background-image: linear-gradient(to left bottom, rgba(111, 158, 188, 0.6), rgba(29, 45, 61, 0.6)), url("../src/images/computerStation.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -151,7 +151,6 @@ html, body {
 
 /* Skills */
 .Skills-container {
-  height: 100vh;
   text-align: center;
 }
 
@@ -183,4 +182,15 @@ html, body {
   height: 170px;
   background-color: aliceblue;
   margin: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.Projects-button {
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
