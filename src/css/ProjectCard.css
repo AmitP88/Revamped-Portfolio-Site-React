@@ -27,6 +27,7 @@
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    box-shadow: 0 0 10px;
   }
   
   /* Position the front and back side */
@@ -36,6 +37,7 @@
     height: 100%;
     backface-visibility: hidden;
     border-radius: 2px;
+    box-shadow: 0 0 10px;
   }
   
   /* Style the front side (fallback if image is missing) */
