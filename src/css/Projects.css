@@ -2,4 +2,13 @@
     width: 100vw;
     height: 100vh;
     background-color: aliceblue;
+    text-align: center;
+}
+
+.projects-animated {
+    top: 10%;
+}
+
+.Projects-title {
+    margin: 0 auto;
 }
