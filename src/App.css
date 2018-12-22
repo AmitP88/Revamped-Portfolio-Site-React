@@ -206,7 +206,7 @@ img {
   top: 20%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 426px){
+@media only screen and (min-width: 200px) and (max-width: 510px){
   .skill {
     margin: 10%;
     width: 50px;
