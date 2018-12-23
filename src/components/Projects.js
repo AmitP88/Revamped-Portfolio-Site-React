@@ -8,6 +8,7 @@ import TicTacToe from '../images/TicTacToe.png';
 import Simon from '../images/Simon.png';
 import Pomodoro from '../images/Pomodoro.png';
 import KhmerFamilyCafe from '../images/KhmerFamilyCafe.png';
+import HeatMap from '../images/HeatMap.png';
 
 export default class Projects extends Component {
     render(){
@@ -46,7 +47,11 @@ export default class Projects extends Component {
                             description='A website I made for the owner of a cambodian restaurant
                                          called Khmer Family Cafe located in Fresno, CA.'
                         />
-                        <ProjectCard />
+                        <ProjectCard 
+                            screenshot={HeatMap}
+                            projectName='D3 Heat Map'
+                            description='A graph developed using D3.js representing the gradual increase of global temperatures over the past 250 years.'
+                        />
                         <ProjectCard />
                     </div>                
                 </div>
