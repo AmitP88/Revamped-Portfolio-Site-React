@@ -6,6 +6,7 @@ import ProjectCard from '../components/ProjectCard';
 // import project images
 import TicTacToe from '../images/TicTacToe.png';
 import Simon from '../images/Simon.png';
+import Pomodoro from '../images/Pomodoro.png';
 
 export default class Projects extends Component {
     render(){
@@ -30,7 +31,12 @@ export default class Projects extends Component {
                                          The game can be set to Hard mode for a greater challenge.'
                             techUsed={['React', 'Redux', 'CSS3']}
                         />
-                        <ProjectCard />
+                        <ProjectCard 
+                            screenshot={Pomodoro}
+                            projectName='Pomodoro Timer'
+                            description='A timer to set one countdown for work time,
+                                         and one for break time that starts once work timer ends.'
+                        />
                     </div>
                     <div className="cards-row">
                         <ProjectCard />
