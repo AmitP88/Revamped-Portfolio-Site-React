@@ -7,6 +7,7 @@ import ProjectCard from '../components/ProjectCard';
 import TicTacToe from '../images/TicTacToe.png';
 import Simon from '../images/Simon.png';
 import Pomodoro from '../images/Pomodoro.png';
+import KhmerFamilyCafe from '../images/KhmerFamilyCafe.png';
 
 export default class Projects extends Component {
     render(){
@@ -39,7 +40,12 @@ export default class Projects extends Component {
                         />
                     </div>
                     <div className="cards-row">
-                        <ProjectCard />
+                        <ProjectCard 
+                            screenshot={KhmerFamilyCafe}
+                            projectName='Restaurant website'
+                            description='A website I made for the owner of a cambodian restaurant
+                                         called Khmer Family Cafe located in Fresno, CA.'
+                        />
                         <ProjectCard />
                         <ProjectCard />
                     </div>                
