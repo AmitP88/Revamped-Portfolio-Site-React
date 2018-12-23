@@ -75,6 +75,7 @@ html, body {
 .btn-green {
   background-color: #55c57a;
   color: white;
+  font-size: 14px;
 }
 
 .btn::after {
