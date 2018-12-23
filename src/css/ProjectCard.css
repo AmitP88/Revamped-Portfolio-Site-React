@@ -64,3 +64,17 @@
   .projectName {
     margin-bottom: 5px;
   }
+
+
+
+  .Card-Demo-button {
+    margin: 0 auto;
+    position: relative;
+    top: 45%;
+  }
+
+  .Card-Repo-button {
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+  }

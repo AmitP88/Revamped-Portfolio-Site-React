@@ -21,6 +21,12 @@ export default class ProjectCard extends Component {
             <div className="flip-card-back">
                 <h3>Tech Used:</h3>
                 <div>{this.props.techUsed}</div>
+                <div className="Card-Demo-button">
+                    <a href="#" className="btn btn-white btn-animated">Demo</a>                
+                </div>
+                <div className="Card-Repo-button">
+                    <a href="#" className="btn btn-white btn-animated">Repo</a>                
+                </div> 
             </div>
           </div>
         </div>
