@@ -9,6 +9,7 @@ import Simon from '../images/Simon.png';
 import Pomodoro from '../images/Pomodoro.png';
 import KhmerFamilyCafe from '../images/KhmerFamilyCafe.png';
 import HeatMap from '../images/HeatMap.png';
+import WikiViewer from '../images/WikiViewer.png';
 
 export default class Projects extends Component {
     render(){
@@ -52,7 +53,11 @@ export default class Projects extends Component {
                             projectName='D3 Heat Map'
                             description='A graph developed using D3.js representing the gradual increase of global temperatures over the past 250 years.'
                         />
-                        <ProjectCard />
+                        <ProjectCard 
+                            screenshot={WikiViewer}
+                            projectName='Wiki Viewer'
+                            description='A search engine for finding posts on Wikipedia using Wikipedias API along with AJAX.'
+                        />
                     </div>                
                 </div>
                 <div className="Certifications-button">
