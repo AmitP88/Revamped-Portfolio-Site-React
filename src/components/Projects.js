@@ -61,7 +61,7 @@ export default class Projects extends Component {
                     </div>                
                 </div>
                 <div className="Certifications-button">
-                    <a href="#" className="btn btn-white btn-animated">{this.props.buttonName}</a>                
+                    <a href="#" className="btn btn-green btn-animated">{this.props.buttonName}</a>                
                 </div> 
             </div>
         );

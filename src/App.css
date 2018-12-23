@@ -72,6 +72,11 @@ html, body {
   color: #777;
 }
 
+.btn-green {
+  background-color: #55c57a;
+  color: white;
+}
+
 .btn::after {
   content: "";
   display: inline-block;
@@ -87,6 +92,10 @@ html, body {
 
 .btn-white::after {
   background-color: white;
+}
+
+.btn-green::after {
+  background-color: #55c57a;
 }
 
 .btn:hover::after {
