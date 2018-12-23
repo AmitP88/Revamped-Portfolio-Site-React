@@ -7,7 +7,9 @@ export default class ProjectCard extends Component {
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <img className="project-img" src="https://ksassets.timeincuk.net/wp/uploads/sites/55/2018/11/zelda-ocarina-of-time-920x584.jpg" alt="Avatar" />
+                        <img className="project-img" src={this.props.screenshot} alt="Avatar" />
+                        <h2 className="projectName">{this.props.projectName}</h2>
+                        <p className="description">{this.props.description}</p>
                     </div>
                     <div className="flip-card-back">
                         <h1>John Doe</h1> 

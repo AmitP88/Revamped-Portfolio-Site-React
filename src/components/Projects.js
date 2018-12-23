@@ -3,6 +3,9 @@ import { Animated } from 'react-animated-css';
 import '../css/Projects.css';
 import ProjectCard from '../components/ProjectCard';
 
+// import project images
+import TicTacToe from '../images/TicTacToe.png';
+
 export default class Projects extends Component {
     render(){
         return (
@@ -12,7 +15,12 @@ export default class Projects extends Component {
                 </Animated>
                 <div className="cards-container">
                     <div className="cards-row">
-                        <ProjectCard />
+                        <ProjectCard
+                            screenshot={TicTacToe}
+                            projectName='Unbeatable Tic Tac Toe'
+                            description='An unbeatable tic tac toe game built with React and Redux.
+                                         The unbeatable AI was developed using the minimax algorithm.'
+                        />
                         <ProjectCard />
                         <ProjectCard />
                     </div>

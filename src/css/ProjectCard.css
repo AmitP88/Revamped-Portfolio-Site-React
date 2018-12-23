@@ -1,8 +1,9 @@
 /* Flip Card for projects */
 .project-img {
     width: 350px;
-    height: 500px;
+    height: 350px;
     border-radius: 2px;
+    margin-top: 0;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -43,7 +44,7 @@
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
+    background-color: ghostwhite;
     color: black;
   }
   
@@ -52,4 +53,12 @@
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+  }
+
+  .description {
+    margin: 10px;
+  }
+
+  .projectName {
+    margin-bottom: 5px;
   }
