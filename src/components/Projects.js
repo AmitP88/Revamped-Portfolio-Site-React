@@ -20,6 +20,7 @@ export default class Projects extends Component {
                             projectName='Unbeatable Tic Tac Toe'
                             description='An unbeatable tic tac toe game built with React and Redux.
                                          The unbeatable AI was developed using the minimax algorithm.'
+                            techUsed={['React', 'Redux', 'CSS3']}
                         />
                         <ProjectCard />
                         <ProjectCard />
