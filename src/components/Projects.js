@@ -5,6 +5,7 @@ import ProjectCard from '../components/ProjectCard';
 
 // import project images
 import TicTacToe from '../images/TicTacToe.png';
+import Simon from '../images/Simon.png';
 
 export default class Projects extends Component {
     render(){
@@ -22,7 +23,13 @@ export default class Projects extends Component {
                                          The unbeatable AI was developed using the minimax algorithm.'
                             techUsed={['React', 'Redux', 'CSS3']}
                         />
-                        <ProjectCard />
+                        <ProjectCard
+                            screenshot={Simon}
+                            projectName='Simon Game'
+                            description='A classic Simon game with a modern style to it.
+                                         The game can be set to Hard mode for a greater challenge.'
+                            techUsed={['React', 'Redux', 'CSS3']}
+                        />
                         <ProjectCard />
                     </div>
                     <div className="cards-row">
