@@ -29,9 +29,10 @@
     }
 
     .flip-card {
-      margin-bottom: 100px;
       width: 350px;
       height: 450px;
+      margin: 0 auto;
+      margin-bottom: 30%;
     }
 
     .projectName {
@@ -41,6 +42,16 @@
 
     .techListItem {
       font-size: 5vw;
+    }
+
+    .project-img {
+      height: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 370px){
+    .project-img {
+      height: 70%;
     }
   }
 
