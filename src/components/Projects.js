@@ -24,12 +24,12 @@ export default class Projects extends Component {
         }
 
         const techList = {
-            tictactoe : projectTech.tictactoe.map((item, index) => <li key={index}>{item}</li>),
-            simon : projectTech.simon.map((item, index) => <li key={index}>{item}</li>),
-            pomodoro : projectTech.pomodoro.map((item, index) => <li key={index}>{item}</li>),
-            khmerfamilycafe : projectTech.khmerfamilycafe.map((item, index) => <li key={index}>{item}</li>),
-            heatmap : projectTech.heatmap.map((item, index) => <li key={index}>{item}</li>),
-            wikiviewer : projectTech.wikiviewer.map((item, index) => <li key={index}>{item}</li>)
+            tictactoe : projectTech.tictactoe.map((item, index) => <li key={index} className="techListItem">{item}</li>),
+            simon : projectTech.simon.map((item, index) => <li key={index} className="techListItem">{item}</li>),
+            pomodoro : projectTech.pomodoro.map((item, index) => <li key={index} className="techListItem">{item}</li>),
+            khmerfamilycafe : projectTech.khmerfamilycafe.map((item, index) => <li key={index} className="techListItem">{item}</li>),
+            heatmap : projectTech.heatmap.map((item, index) => <li key={index} className="techListItem">{item}</li>),
+            wikiviewer : projectTech.wikiviewer.map((item, index) => <li key={index} className="techListItem">{item}</li>)
         }
 
 
