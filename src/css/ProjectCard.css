@@ -108,5 +108,6 @@ ul {
   margin: 5%;
   margin-bottom: 10%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
