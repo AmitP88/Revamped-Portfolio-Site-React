@@ -44,7 +44,7 @@
     }
 
     .projectName {
-      margin-top: 7px;
+      margin-top: 10px;
       font-size: 6vw;
     }
 
@@ -100,6 +100,10 @@
 
     .project-img {
       height: 70%;
+    }
+
+    .projectName {
+      margin-top: 10px;
     }
   }
   
