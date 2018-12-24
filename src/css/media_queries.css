@@ -98,10 +98,6 @@
       margin-bottom: 30%;
     }
 
-    .techListItem {
-      font-size: 5vw;
-    }
-
     .project-img {
       height: 70%;
     }
@@ -113,6 +109,9 @@
     }
     .Projects-button {
       top: 10%;
+    }
+    .techListItem {
+      font-size: 2.5vw;
     }
   }
   
