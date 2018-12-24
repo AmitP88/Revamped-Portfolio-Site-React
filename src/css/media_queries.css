@@ -137,6 +137,10 @@
       height: 500px;
     }
 
+    .projectName {
+      margin-top: 10px;
+    }
+
     .techListItem {
       font-size: 1.5vw;
     }
