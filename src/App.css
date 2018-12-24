@@ -120,10 +120,9 @@ html, body {
 }
 
 .Skills-title {
-  font-family: Consolas, monaco, monospace;
   color: white;
   letter-spacing: 20px;
-  font-size: 4vw;
+  font-size: 3.5vw;
   margin: 0 auto;
   padding-top: 5%;
 }
