@@ -28,6 +28,10 @@
       top: 10%;
     }
 
+    .Projects-container {
+      padding-top: 10%;
+    }
+
     .flip-card {
       width: 350px;
       height: 450px;
@@ -73,6 +77,10 @@
   }
   
   @media only screen and (min-width: 1024px) {
+    .Projects-container {
+      padding-top: 5%;
+    }
+
     .Projects-button {
       top: 25%;
     }
@@ -87,6 +95,10 @@
     }
 
     .techList-title {
-      font-size: 1.7vw;
+      font-size: 1.5vw;
+    }
+
+    .Projects-title {
+      font-size: 2.5vw;
     }
   }
