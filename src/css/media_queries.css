@@ -28,11 +28,6 @@
       top: 10%;
     }
 
-    .project-img {
-      width: 288px;
-      height: 288px;
-    }
-
     .flip-card {
       margin-bottom: 100px;
       width: 350px;
@@ -45,13 +40,24 @@
     }
 
     .techListItem {
-      font-size: 6vw;
+      font-size: 5vw;
     }
-
-
-
   }
-  
+
+  @media only screen and (min-width: 200px) and (max-width: 320px){
+    .project-img {
+      width: 90vw;
+      height: 40vh;
+    }
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 376px){
+    .project-img {
+      width: 90vw;
+      height: 45vh;
+    }
+  }
+
   @media only screen and (min-width: 400px) and (max-width: 509px){
     .row {
       margin-top: 15px;
