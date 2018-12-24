@@ -69,16 +69,18 @@
     margin-bottom: 5px;
   }
 
-
-
   .Card-Demo-button {
     margin: 0 auto;
     position: relative;
-    top: 5%;
+    top: 1%;
   }
 
   .Card-Repo-button {
     margin: 0 auto;
     position: relative;
-    top: 10%;
+    top: 5%;
+  }
+
+  .techList-title {
+    font-size: 1.7vw;
   }
