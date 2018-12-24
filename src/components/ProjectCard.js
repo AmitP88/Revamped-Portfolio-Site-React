@@ -3,9 +3,6 @@ import '../css/ProjectCard.css';
 
 export default class ProjectCard extends Component { 
     render() {
-        let tech = this.props.techUsed;
-        console.log(typeof tech);
-
       return (
         <div className="flip-card">
           <div className="flip-card-inner">
@@ -20,7 +17,7 @@ export default class ProjectCard extends Component {
             </div>
             <div className="flip-card-back">
                 <h3>Tech Used:</h3>
-                <div>{this.props.techUsed}</div>
+                <ul>{this.props.techUsed}</ul>
                 <div className="Card-Demo-button">
                     <a href="#" className="btn btn-white btn-animated">Demo</a>                
                 </div>
