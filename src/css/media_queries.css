@@ -118,6 +118,35 @@
       font-size: 2.5vw;
     }
   }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px){
+    .Projects-button {
+      top: 10%;
+    }
+
+    .Projects-container {
+      padding-top: 10%;
+    }
+
+    .flip-card {
+      width: 350px;
+      height: 450px;
+      margin: 0 auto;
+      margin-bottom: 30%;
+    }
+
+    .project-img {
+      height: 70%;
+    }
+
+    .projectName {
+      margin-top: 10px;
+    }
+
+    .techListItem {
+      font-size: 2vw;
+    }
+  }
   
   @media only screen and (min-width: 1024px) {
     .subtitle {
@@ -142,7 +171,7 @@
     }
 
     .techListItem {
-      font-size: 1.5vw;
+      font-size: 2vw;
     }
 
     .techList-title {
