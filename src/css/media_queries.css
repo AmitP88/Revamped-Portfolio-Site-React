@@ -27,6 +27,29 @@
     .Projects-button {
       top: 10%;
     }
+
+    .project-img {
+      width: 288px;
+      height: 288px;
+    }
+
+    .flip-card {
+      margin-bottom: 50px;
+      width: 350px;
+      height: 450px;
+    }
+
+    .projectName {
+      margin-top: 7px;
+      font-size: 6vw;
+    }
+
+    .techListItem {
+      font-size: 6vw;
+    }
+
+
+
   }
   
   @media only screen and (min-width: 400px) and (max-width: 509px){
@@ -50,4 +73,24 @@
     .Projects-button {
       top: 25%;
     }
+
+    .flip-card {
+      width: 350px;
+      height: 500px;
+    }
+
+    .project-img {
+      width: 350px;
+      height: 350px;
+    }
+
+    .techListItem {
+      font-size: 1.5vw;
+    }
+
+    .techList-title {
+      font-size: 1.7vw;
+    }
+
+
   }

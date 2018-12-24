@@ -4,8 +4,6 @@
 }
 
 .project-img {
-    width: 350px;
-    height: 350px;
     border-radius: 2px;
     margin-top: 0;
     border-bottom: 1px lightgray solid;
@@ -13,8 +11,6 @@
 
 .flip-card {
     background-color: transparent;
-    width: 350px;
-    height: 500px;
     perspective: 1000px;
   }
   
@@ -82,10 +78,6 @@
   top: 5%;
 }
 
-.techList-title {
-  font-size: 1.7vw;
-}
-
 ul {
   text-align: center;
   margin-right: 35px;
@@ -94,7 +86,6 @@ ul {
 
 .techListItem {
   list-style-type: none;
-  font-size: 1.5vw;
   padding-top: 10px;
   padding-bottom: 10px;
 
