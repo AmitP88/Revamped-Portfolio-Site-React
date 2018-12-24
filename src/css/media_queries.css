@@ -182,3 +182,10 @@
       font-size: 2.5vw;
     }
   }
+
+  @media only screen and (min-width: 1025px) and (max-width: 1166px){
+    .flip-card {
+      margin: 0 auto;
+      margin-bottom: 5%;
+    }
+  }
