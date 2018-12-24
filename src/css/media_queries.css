@@ -68,6 +68,40 @@
     .Projects-button {
       top: 5%;
     }
+
+    .techListItem {
+      font-size: 3.5vw;
+    }
+  }
+
+  @media only screen and (min-width: 510px) and (max-width: 769px){
+    .Projects-button {
+      top: 10%;
+    }
+
+    .Projects-container {
+      padding-top: 10%;
+    }
+
+    .flip-card {
+      width: 350px;
+      height: 450px;
+      margin: 0 auto;
+      margin-bottom: 30%;
+    }
+
+    .projectName {
+      margin-top: 7px;
+      font-size: 4vw;
+    }
+
+    .techListItem {
+      font-size: 5vw;
+    }
+
+    .project-img {
+      height: 70%;
+    }
   }
   
   @media only screen and (min-width: 510px) and (max-width: 1023px){
