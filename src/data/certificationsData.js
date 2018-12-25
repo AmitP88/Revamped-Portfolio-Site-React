@@ -2,6 +2,7 @@
 import ResponsiveDesignCert from '../images/ResponsiveDesignCert.png';
 import DataStructuresAndAlgorithmsCert from '../images/DataStructuresAndAlgorithmsCert.png';
 import FrontEndLibrariesCert from '../images/FrontEndLibrariesCert.png';
+import DataVisualizationCert from '../images/DataVisualizationCert.png';
 
 let certificationsData = [
   {
@@ -89,6 +90,35 @@ let certificationsData = [
       Name: 'Pomodoro Clock',
       Demo: 'https://amitp88.github.io/Pomodoro-Timer/',
       Repo: 'https://github.com/AmitP88/Pomodoro-Timer'
+    }
+  },
+  {
+    certName: 'Data Visualization Certification',
+    certImg : DataVisualizationCert,
+    project1: {
+      Name: 'GDP Bar Chart',
+      Demo: 'https://amitp88.github.io/D3-GDP-Bar-Chart/',
+      Repo: 'https://github.com/AmitP88/D3-GDP-Bar-Chart'
+    },
+    project2: {
+      Name: 'Doping Cyclist Scatterplot',
+      Demo: 'https://amitp88.github.io/D3-Doping-Cyclist-Scatterplot/',
+      Repo: 'https://github.com/AmitP88/D3-Doping-Cyclist-Scatterplot'
+    },
+    project3: {
+      Name: 'Heat Map',
+      Demo: 'https://amitp88.github.io/D3-Heat-Map/',
+      Repo: 'https://github.com/AmitP88/D3-Heat-Map'
+    },
+    project4: {
+      Name: 'Choropleth Map',
+      Demo: 'https://amitp88.github.io/D3-Choropleth-Map/',
+      Repo: 'https://github.com/AmitP88/D3-Choropleth-Map'
+    },
+    project5: {
+      Name: 'Treemap Diagram',
+      Demo: 'https://amitp88.github.io/D3-Tree-Map/',
+      Repo: 'https://github.com/AmitP88/D3-Tree-Map'
     }
   }
 ];
