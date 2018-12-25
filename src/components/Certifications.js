@@ -2,41 +2,7 @@ import React, { Component } from 'react';
 import { Animated } from 'react-animated-css';
 import Certification from '../components/Certification';
 import '../css/Certifications.css';
-
-// import Certification images
-import ResponsiveDesignCert from '../images/ResponsiveDesignCert.png';
-
-let certifications = [
-  {
-    certName: 'Responsive Web Design Certification',
-    certImg : ResponsiveDesignCert,
-    project1: {
-      Name: 'Tribute Page',
-      Demo: 'https://amitp88.github.io/Tribute-Page/',
-      Repo: 'https://github.com/AmitP88/Tribute-Page'
-    },
-    project2: {
-      Name: 'Survey Form',
-      Demo: 'https://amitp88.github.io/Survey-Form/',
-      Repo: 'https://github.com/AmitP88/Survey-Form'
-    },
-    project3: {
-      Name: 'Product Landing Page',
-      Demo: 'https://amitp88.github.io/Product-Landing-Page/',
-      Repo: 'https://github.com/AmitP88/Product-Landing-Page'
-    },
-    project4: {
-      Name: 'Technical Documentation Page',
-      Demo: 'https://amitp88.github.io/Technical-Documentation-Page/',
-      Repo: 'https://github.com/AmitP88/Technical-Documentation-Page'
-    },
-    project5: {
-      Name: 'A Personal Portfolio Webpage',
-      Demo: 'https://amitp88.github.io/Portfolio-Webpage/',
-      Repo: 'https://github.com/AmitP88/Portfolio-Webpage'
-    }
-  }
-];
+import certificationsData from '../data/certificationsData';
 
 export default class Certifications extends Component {
   render(){
@@ -46,27 +12,27 @@ export default class Certifications extends Component {
           <h1 className="Certifications-title">CERTIFICATIONS</h1>
         </Animated>
         <Certification 
-          screenshot={certifications[0].certImg}
-          imgAlt={certifications[0].certName}
-          project_1_Name={certifications[0].project1.Name}
-          project_1_Demo={certifications[0].project1.Demo}
-          project_1_Repo={certifications[0].project1.Repo}
+          screenshot={certificationsData[0].certImg}
+          imgAlt={certificationsData[0].certName}
+          project_1_Name={certificationsData[0].project1.Name}
+          project_1_Demo={certificationsData[0].project1.Demo}
+          project_1_Repo={certificationsData[0].project1.Repo}
 
-          project_2_Name={certifications[0].project2.Name}
-          project_2_Demo={certifications[0].project2.Demo}
-          project_2_Repo={certifications[0].project2.Repo}
+          project_2_Name={certificationsData[0].project2.Name}
+          project_2_Demo={certificationsData[0].project2.Demo}
+          project_2_Repo={certificationsData[0].project2.Repo}
 
-          project_3_Name={certifications[0].project3.Name}
-          project_3_Demo={certifications[0].project3.Demo}
-          project_3_Repo={certifications[0].project3.Repo}
+          project_3_Name={certificationsData[0].project3.Name}
+          project_3_Demo={certificationsData[0].project3.Demo}
+          project_3_Repo={certificationsData[0].project3.Repo}
 
-          project_4_Name={certifications[0].project4.Name}
-          project_4_Demo={certifications[0].project4.Demo}
-          project_4_Repo={certifications[0].project4.Repo}
+          project_4_Name={certificationsData[0].project4.Name}
+          project_4_Demo={certificationsData[0].project4.Demo}
+          project_4_Repo={certificationsData[0].project4.Repo}
 
-          project_5_Name={certifications[0].project5.Name}
-          project_5_Demo={certifications[0].project5.Demo}
-          project_5_Repo={certifications[0].project5.Repo}
+          project_5_Name={certificationsData[0].project5.Name}
+          project_5_Demo={certificationsData[0].project5.Demo}
+          project_5_Repo={certificationsData[0].project5.Repo}
         />
       </div>
     );
