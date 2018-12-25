@@ -1,5 +1,6 @@
 // import Certification images
 import ResponsiveDesignCert from '../images/ResponsiveDesignCert.png';
+import DataStructuresAndAlgorithmsCert from '../images/DataStructuresAndAlgorithmsCert.png';
 
 let certificationsData = [
   {
@@ -29,6 +30,35 @@ let certificationsData = [
       Name: 'A Personal Portfolio Webpage',
       Demo: 'https://amitp88.github.io/Portfolio-Webpage/',
       Repo: 'https://github.com/AmitP88/Portfolio-Webpage'
+    }
+  },
+  {
+    certName: 'Javascript Algorithms And Data Structures Certification',
+    certImg : DataStructuresAndAlgorithmsCert,
+    project1: {
+      Name: 'Palindrome Checker',
+      Demo: '#',
+      Repo: '#'
+    },
+    project2: {
+      Name: 'Roman Numeral Converter',
+      Demo: '#',
+      Repo: '#'
+    },
+    project3: {
+      Name: 'Caesars Cipher',
+      Demo: '#',
+      Repo: '#'
+    },
+    project4: {
+      Name: 'Telephone Number Validator',
+      Demo: '#',
+      Repo: '#'
+    },
+    project5: {
+      Name: 'Cash Register',
+      Demo: '#',
+      Repo: '#'
     }
   }
 ];
