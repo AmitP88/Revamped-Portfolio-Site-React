@@ -1,6 +1,7 @@
 // import Certification images
 import ResponsiveDesignCert from '../images/ResponsiveDesignCert.png';
 import DataStructuresAndAlgorithmsCert from '../images/DataStructuresAndAlgorithmsCert.png';
+import FrontEndLibrariesCert from '../images/FrontEndLibrariesCert.png';
 
 let certificationsData = [
   {
@@ -59,6 +60,35 @@ let certificationsData = [
       Name: 'Cash Register',
       Demo: '#',
       Repo: '#'
+    }
+  },
+  {
+    certName: 'Front End Libraries Certification',
+    certImg : FrontEndLibrariesCert,
+    project1: {
+      Name: 'Random Quote Machine',
+      Demo: 'https://amitp88.github.io/Random-Joke-Machine-React-Version/',
+      Repo: 'https://github.com/AmitP88/Random-Joke-Machine'
+    },
+    project2: {
+      Name: 'Markdown Previewer',
+      Demo: 'https://amitp88.github.io/Markdown-Previewer-React-Version/',
+      Repo: 'https://github.com/AmitP88/Random-Joke-Machine'
+    },
+    project3: {
+      Name: 'Drum Machine',
+      Demo: 'https://amitp88.github.io/Drum-Machine-React-Version/',
+      Repo: 'https://github.com/AmitP88/Drum-Machine-React-Version'
+    },
+    project4: {
+      Name: 'JavaScript Calculator',
+      Demo: 'https://amitp88.github.io/React-Redux-Calculator/',
+      Repo: 'https://github.com/AmitP88/React-Redux-Calculator'
+    },
+    project5: {
+      Name: 'Pomodoro Clock',
+      Demo: 'https://amitp88.github.io/Pomodoro-Timer/',
+      Repo: 'https://github.com/AmitP88/Pomodoro-Timer'
     }
   }
 ];
