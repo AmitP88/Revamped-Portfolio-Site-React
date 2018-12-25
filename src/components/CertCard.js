@@ -7,10 +7,20 @@ export default class CertCard extends Component {
       <div className="flip-cert">
         <div className="flip-cert-inner">
           <div className="flip-cert-front">
-              <img className="certImg" src={this.props.certImg} alt=""/>
+            <img className="certImg" src={this.props.certImg} alt=""/>
           </div>
           <div className="flip-cert-back">
-
+            <h1>Projects</h1>
+            <div className="cert-projects-container">
+              <div className="cert-project-names-container">
+                <h3 className="cert-project-name">{this.props.project_1_Name}</h3>
+                <h3 className="cert-project-name">{this.props.project_2_Name}</h3>
+                <h3 className="cert-project-name">{this.props.project_3_Name}</h3>
+                <h3 className="cert-project-name">{this.props.project_4_Name}</h3>
+                <h3 className="cert-project-name">{this.props.project_5_Name}</h3>
+              </div>
+              <div className="cert-project-buttons-container"></div>
+            </div>
           </div>
         </div>
       </div>
