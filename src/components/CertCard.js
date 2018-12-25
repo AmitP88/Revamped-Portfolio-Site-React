@@ -11,16 +11,47 @@ export default class CertCard extends Component {
           </div>
           <div className="flip-cert-back">
             <h1>Projects</h1>
+
+
             <div className="cert-projects-container">
-              <div className="cert-project-names-container">
+              <div className="cert-project">
                 <h3 className="cert-project-name">{this.props.project_1_Name}</h3>
-                <h3 className="cert-project-name">{this.props.project_2_Name}</h3>
-                <h3 className="cert-project-name">{this.props.project_3_Name}</h3>
-                <h3 className="cert-project-name">{this.props.project_4_Name}</h3>
-                <h3 className="cert-project-name">{this.props.project_5_Name}</h3>
+                <div className="buttons-container">
+                  <button>Demo</button>
+                  <button>Repo</button>
+                </div>
               </div>
-              <div className="cert-project-buttons-container"></div>
+              <div className="cert-project">
+                <h3 className="cert-project-name">{this.props.project_2_Name}</h3>
+                <div className="buttons-container">
+                  <button>Demo</button>
+                  <button>Repo</button>
+                </div>
+              </div>
+              <div className="cert-project">
+                <h3 className="cert-project-name">{this.props.project_3_Name}</h3>
+                <div className="buttons-container">
+                  <button>Demo</button>
+                  <button>Repo</button>
+                </div>
+              </div>
+              <div className="cert-project">
+                <h3 className="cert-project-name">{this.props.project_4_Name}</h3>
+                <div className="buttons-container">
+                  <button>Demo</button>
+                  <button>Repo</button>
+                </div>
+              </div>
+              <div className="cert-project">
+                <h3 className="cert-project-name">{this.props.project_5_Name}</h3>
+                <div className="buttons-container">
+                  <button>Demo</button>
+                  <button>Repo</button>
+                </div>
+              </div>
             </div>
+
+
           </div>
         </div>
       </div>
