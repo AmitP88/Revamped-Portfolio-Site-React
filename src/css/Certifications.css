@@ -1,0 +1,11 @@
+.certifications-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.certifications-title {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+}

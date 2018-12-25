@@ -5,7 +5,7 @@ import '../src/css/media_queries.css';
 import TitlePage from './components/TitlePage';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-
+import Certifications from './components/Certifications';
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
         <TitlePage buttonName="Skills" />
         <Skills buttonName="Projects" />
         <Projects buttonName="Certifications" />
+        <Certifications />
       </div>
     );
   }
