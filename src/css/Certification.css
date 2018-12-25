@@ -1,0 +1,25 @@
+.Certification {
+  margin: 5%;
+  width: 90vw;
+  height: 50vh;
+  background-color: aliceblue;
+  display: flex;
+}
+
+.cert-screenshot {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.cert-projects-container {
+  background-color: green;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.cert-projects-title {
+  text-align: center;
+  border-bottom: 1px black solid;
+}
