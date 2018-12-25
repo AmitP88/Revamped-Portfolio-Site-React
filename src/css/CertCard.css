@@ -1,0 +1,51 @@
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-cert {
+  background-color: transparent;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-cert-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-cert:hover .flip-cert-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-cert-front, .flip-cert-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-cert-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-cert-back {
+  background-color: darkgreen;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.certImg {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
