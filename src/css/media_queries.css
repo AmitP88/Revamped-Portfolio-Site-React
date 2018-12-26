@@ -58,6 +58,7 @@
 
     .certifications-container {
       overflow: hidden;
+      padding-top: 10%;
     }
 
     /* Cert Cards */
