@@ -28,6 +28,66 @@ export default class Certifications extends Component {
           project_4_repoLink={certificationData[0].project4.Repo}
           project_5_repoLink={certificationData[0].project5.Repo}
         />
+        <CertCard 
+          certImg={certificationData[1].certImg}
+          project_1_Name={certificationData[1].project1.Name}
+          project_2_Name={certificationData[1].project2.Name}
+          project_3_Name={certificationData[1].project3.Name}
+          project_4_Name={certificationData[1].project4.Name}
+          project_5_Name={certificationData[1].project5.Name}
+
+          project_1_demoLink={certificationData[1].project1.Demo}
+          project_2_demoLink={certificationData[1].project2.Demo}
+          project_3_demoLink={certificationData[1].project3.Demo}
+          project_4_demoLink={certificationData[1].project4.Demo}
+          project_5_demoLink={certificationData[1].project5.Demo}
+
+          project_1_repoLink={certificationData[1].project1.Repo}
+          project_2_repoLink={certificationData[1].project2.Repo}
+          project_3_repoLink={certificationData[1].project3.Repo}
+          project_4_repoLink={certificationData[1].project4.Repo}
+          project_5_repoLink={certificationData[1].project5.Repo}
+        />
+        <CertCard 
+          certImg={certificationData[2].certImg}
+          project_1_Name={certificationData[2].project1.Name}
+          project_2_Name={certificationData[2].project2.Name}
+          project_3_Name={certificationData[2].project3.Name}
+          project_4_Name={certificationData[2].project4.Name}
+          project_5_Name={certificationData[2].project5.Name}
+
+          project_1_demoLink={certificationData[2].project1.Demo}
+          project_2_demoLink={certificationData[2].project2.Demo}
+          project_3_demoLink={certificationData[2].project3.Demo}
+          project_4_demoLink={certificationData[2].project4.Demo}
+          project_5_demoLink={certificationData[2].project5.Demo}
+
+          project_1_repoLink={certificationData[2].project1.Repo}
+          project_2_repoLink={certificationData[2].project2.Repo}
+          project_3_repoLink={certificationData[2].project3.Repo}
+          project_4_repoLink={certificationData[2].project4.Repo}
+          project_5_repoLink={certificationData[2].project5.Repo}
+        />
+        <CertCard 
+          certImg={certificationData[3].certImg}
+          project_1_Name={certificationData[3].project1.Name}
+          project_2_Name={certificationData[3].project2.Name}
+          project_3_Name={certificationData[3].project3.Name}
+          project_4_Name={certificationData[3].project4.Name}
+          project_5_Name={certificationData[3].project5.Name}
+
+          project_1_demoLink={certificationData[3].project1.Demo}
+          project_2_demoLink={certificationData[3].project2.Demo}
+          project_3_demoLink={certificationData[3].project3.Demo}
+          project_4_demoLink={certificationData[3].project4.Demo}
+          project_5_demoLink={certificationData[3].project5.Demo}
+
+          project_1_repoLink={certificationData[3].project1.Repo}
+          project_2_repoLink={certificationData[3].project2.Repo}
+          project_3_repoLink={certificationData[3].project3.Repo}
+          project_4_repoLink={certificationData[3].project4.Repo}
+          project_5_repoLink={certificationData[3].project5.Repo}
+        />
       </div>
     );
   }
