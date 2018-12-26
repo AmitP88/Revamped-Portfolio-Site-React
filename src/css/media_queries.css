@@ -55,6 +55,27 @@
     .project-img {
       height: 60%;
     }
+
+    /* Cert Cards */
+    .flip-cert {
+      width: 100vw;
+      height: 30vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
 
   @media only screen and (min-width: 370px){
@@ -116,6 +137,11 @@
     }
     .techListItem {
       font-size: 2.5vw;
+    }
+
+    .flip-cert {
+      width: 700px;
+      height: 500px;
     }
   }
 
@@ -180,6 +206,11 @@
 
     .Projects-title {
       font-size: 2.5vw;
+    }
+
+    .flip-cert {
+      width: 700px;
+      height: 500px;
     }
   }
 
