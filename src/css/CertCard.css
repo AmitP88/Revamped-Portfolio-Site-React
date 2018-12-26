@@ -59,14 +59,89 @@
 .cert-project {
   display: flex;
   align-items: center;
+  padding: 0 10px 15px 10px;
+
 }
 
 .cert-project-name {
   text-align: left;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 
 .buttons-container {
   position: absolute;
-  right: 10%;
+  right: 1%;
+}
+
+/*=========================================================================================================*/
+.animated {
+  position: relative;
+  top: 20%;
+  margin-left: 3%;
+}
+
+.button:link,
+.button:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 35px;
+  display: inline-block;
+  width: 40px;
+  border-radius: 100px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  position: relative;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 30px rgba(0,0,0,.2);
+}
+
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.button-white {
+  background-color: white;
+  color: #777;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.button-white::after {
+  background-color: white;
+}
+
+.button-green::after {
+  background: #06beb6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.button:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.button-animated {
+  animation: moveInBottom .5s ease-out 3s;
+  animation-fill-mode: backwards;
 }
