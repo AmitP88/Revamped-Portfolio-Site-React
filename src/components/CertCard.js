@@ -49,11 +49,8 @@ export default class CertCard extends Component {
                   <a href={this.props.project_5_repoLink} className="button button-white button-animated" target="_blank" rel="noopener noreferrer">Repo</a>
                 </div>
               </div>
-              <a href={this.props.project_5_demoLink} className="cert-link button button-lightgreen button-animated" target="_blank" rel="noopener noreferrer">Certification</a>              
+              <a href={this.props.certLink} className="cert-link button button-lightgreen button-animated" target="_blank" rel="noopener noreferrer">Certification</a>              
             </div>
-
-
-
           </div>
         </div>
       </div>

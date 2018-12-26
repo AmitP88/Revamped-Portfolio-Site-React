@@ -8,6 +8,7 @@ let certificationsData = [
   {
     certName: 'Responsive Web Design Certification',
     certImg : ResponsiveDesignCert,
+    certLink: 'https://www.freecodecamp.org/certification/amitp88/responsive-web-design',
     project1: {
       Name: 'Tribute Page',
       Demo: 'https://amitp88.github.io/Tribute-Page/',
@@ -37,6 +38,7 @@ let certificationsData = [
   {
     certName: 'Javascript Algorithms And Data Structures Certification',
     certImg : DataStructuresAndAlgorithmsCert,
+    certLink: 'https://www.freecodecamp.org/certification/amitp88/javascript-algorithms-and-data-structures',
     project1: {
       Name: 'Palindrome Checker',
       Demo: '#',
@@ -66,6 +68,7 @@ let certificationsData = [
   {
     certName: 'Front End Libraries Certification',
     certImg : FrontEndLibrariesCert,
+    certLink: 'https://www.freecodecamp.org/certification/amitp88/front-end-libraries',
     project1: {
       Name: 'Random Quote Machine',
       Demo: 'https://amitp88.github.io/Random-Joke-Machine-React-Version/',
@@ -95,6 +98,7 @@ let certificationsData = [
   {
     certName: 'Data Visualization Certification',
     certImg : DataVisualizationCert,
+    certLink: 'https://www.freecodecamp.org/certification/amitp88/data-visualization',
     project1: {
       Name: 'GDP Bar Chart',
       Demo: 'https://amitp88.github.io/D3-GDP-Bar-Chart/',

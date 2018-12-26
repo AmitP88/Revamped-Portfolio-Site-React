@@ -10,6 +10,7 @@ export default class Certifications extends Component {
         <h1 className="certifications-title">CERTIFICATIONS</h1>
         <CertCard 
           certImg={certificationData[0].certImg}
+          certLink={certificationData[0].certLink}
           project_1_Name={certificationData[0].project1.Name}
           project_2_Name={certificationData[0].project2.Name}
           project_3_Name={certificationData[0].project3.Name}
@@ -30,6 +31,7 @@ export default class Certifications extends Component {
         />
         <CertCard 
           certImg={certificationData[1].certImg}
+          certLink={certificationData[1].certLink}
           project_1_Name={certificationData[1].project1.Name}
           project_2_Name={certificationData[1].project2.Name}
           project_3_Name={certificationData[1].project3.Name}
@@ -50,6 +52,7 @@ export default class Certifications extends Component {
         />
         <CertCard 
           certImg={certificationData[2].certImg}
+          certLink={certificationData[2].certLink}
           project_1_Name={certificationData[2].project1.Name}
           project_2_Name={certificationData[2].project2.Name}
           project_3_Name={certificationData[2].project3.Name}
@@ -70,6 +73,7 @@ export default class Certifications extends Component {
         />
         <CertCard 
           certImg={certificationData[3].certImg}
+          certLink={certificationData[3].certLink}
           project_1_Name={certificationData[3].project1.Name}
           project_2_Name={certificationData[3].project2.Name}
           project_3_Name={certificationData[3].project3.Name}
