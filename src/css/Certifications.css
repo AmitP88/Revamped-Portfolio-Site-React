@@ -1,8 +1,8 @@
 .certifications-container {
   width: 100vw;
-  height: 100vh;
+  height: 300vh;
   background-color: blueviolet;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 .certifications-title {
