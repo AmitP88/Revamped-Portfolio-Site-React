@@ -1,7 +1,7 @@
 .certifications-container {
   width: 100vw;
   height: 300vh;
-  background-color: blueviolet;
+  background-color: cadetblue;
   /* overflow: auto; */
 }
 
@@ -9,4 +9,5 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 5%;
+  color: darkgreen;
 }
