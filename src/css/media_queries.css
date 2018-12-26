@@ -56,6 +56,10 @@
       height: 60%;
     }
 
+    .certifications-container {
+      overflow: hidden;
+    }
+
     /* Cert Cards */
     .flip-cert {
       width: 100vw;
@@ -206,6 +210,10 @@
 
     .Projects-title {
       font-size: 2.5vw;
+    }
+
+    .certifications-container {
+      overflow: auto;
     }
 
     .flip-cert {
