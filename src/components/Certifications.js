@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Certifications.css';
+import '../css/media_queries.css';
 import CertCard from '../components/CertCard';
 import certificationData from '../data/certificationsData';
 

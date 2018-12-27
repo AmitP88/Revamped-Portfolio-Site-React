@@ -64,24 +64,40 @@
     /* Cert Cards */
     .flip-cert {
       width: 100vw;
-      height: 30vh;
+      height: 65vh;
+      margin-bottom: 30%;
+    }
+
+    .certImg {
+      height: 50%;
+      position: relative;
+      top: 25%;
+    }
+
+    .flip-cert-back h1 {
+      font-size: 5vw;
+    }
+
+    .cert-project-name {
+      font-size: 2vw;
     }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
   @media only screen and (min-width: 370px){
     .project-img {
@@ -147,6 +163,13 @@
     .flip-cert {
       width: 700px;
       height: 500px;
+      margin: 0 auto;
+      margin-bottom: 10%;
+    }
+
+    .certImg {
+      height: 100%;
+      margin: 0 auto;
     }
   }
 
@@ -220,6 +243,13 @@
     .flip-cert {
       width: 700px;
       height: 500px;
+      margin: 0 auto;
+      margin-bottom: 10%;
+    }
+
+    .certImg {
+      height: 100%;
+      margin: 0 auto;
     }
   }
 
@@ -227,5 +257,10 @@
     .flip-card {
       margin: 0 auto;
       margin-bottom: 5%;
+    }
+
+    .certImg {
+      height: 100%;
+      margin-bottom: 10%;
     }
   }
