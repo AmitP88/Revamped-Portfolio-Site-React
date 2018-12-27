@@ -86,6 +86,7 @@
     .cert-project {
       display: block;
       padding: 0 10px 10px 10px;
+      border-bottom: 1px white solid;
     }
 
     .cert-project-name {
