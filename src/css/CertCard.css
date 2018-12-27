@@ -68,8 +68,8 @@
   margin-left: 3%;
 } */
 
-.button:link,
-.button:visited {
+.cert-button:link,
+.cert-button:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 35px;
@@ -81,17 +81,17 @@
   position: relative;
 }
 
-.button:hover {
+.cert-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 20px 30px rgba(0,0,0,.2);
 }
 
-.button:active {
+.cert-button:active {
   transform: translateY(-1px);
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
-.button-white {
+.cert-button-white {
   background-color: white;
   color: #777;
   padding: 10px;
@@ -101,7 +101,7 @@
   margin-right: 20px;
 }
 
-.button::after {
+.cert-button::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -114,21 +114,21 @@
   transition: all .4s;
 }
 
-.button-white::after {
+.cert-button-white::after {
   background-color: white;
 }
 
-.button:hover::after {
+.cert-button:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }
 
-.button-animated {
+.cert-button-animated {
   animation: moveInBottom .5s ease-out 3s;
   animation-fill-mode: backwards;
 }
 
-.button-lightgreen {
+.cert-button-lightgreen {
   background-color: lightgreen;
   padding: 10px;
   padding-right: 30px;
@@ -137,7 +137,7 @@
   margin-right: 20px;
 }
 
-.button-lightgreen::after {
+.cert-button-lightgreen::after {
   background: lightgreen;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, lightgreen, rgb(96, 156, 96));  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, lightgreen, rgb(96, 156, 96)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
