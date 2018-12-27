@@ -85,6 +85,7 @@
 
     .cert-project {
       display: block;
+      padding: 0 10px 10px 10px;
     }
 
     .cert-project-name {
@@ -241,6 +242,7 @@
 
     .cert-project {
       display: flex;
+      padding: 0 10px 5px 10px;
     }
 
     .cert-project-name {
@@ -302,6 +304,7 @@
 
     .cert-project {
       display: flex;
+      padding: 0 10px 5px 10px;
     }
 
     .cert-project-name {
@@ -387,6 +390,7 @@
 
     .cert-project {
       display: flex;
+      padding: 0 10px 5px 10px;
     }
 
     .cert-project-name {
