@@ -148,3 +148,7 @@
 .cert-link:visited {
   width: 100px;
 }
+
+.buttons-container {
+  margin-left: 5%;
+}
