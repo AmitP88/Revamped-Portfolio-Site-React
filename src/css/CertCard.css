@@ -32,7 +32,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-cert-front {
-  background-color: #bbb;
+  background-color: transparent;
   color: black;
 }
 
