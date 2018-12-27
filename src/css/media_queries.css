@@ -78,6 +78,11 @@
       font-size: 7vw;
     }
 
+    .cert-projects-container {
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+
     .cert-project {
       display: block;
     }
