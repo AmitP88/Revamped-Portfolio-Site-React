@@ -43,10 +43,6 @@
   transform: rotateY(180deg);
 }
 
-.certImg {
-  width: 100%;
-}
-
 .cert-projects-container {
   width: 100%;
   height: 85%;
