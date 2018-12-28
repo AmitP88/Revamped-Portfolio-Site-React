@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render(){
     return (
       <footer>
-        <h3>Built with <span>React <img src={React_Logo} className="footer-react-logo" alt="React_Logo"/></span></h3>
+        <h3 className="builtWithReact">Built with <span>React <img src={React_Logo} className="footer-react-logo" alt="React_Logo"/></span></h3>
       </footer>
     );
   }
