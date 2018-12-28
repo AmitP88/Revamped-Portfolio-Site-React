@@ -6,6 +6,7 @@ import TitlePage from './components/TitlePage';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
+import AboutMe from './components/AboutMe';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Skills buttonName="Projects" />
         <Projects buttonName="Certifications" />
         <Certifications />
+        <AboutMe />
       </div>
     );
   }

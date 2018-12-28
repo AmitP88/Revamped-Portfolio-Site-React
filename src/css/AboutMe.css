@@ -1,0 +1,25 @@
+.About-Me{
+  width: 100vw;
+  height: 50vh;
+  background-color: indianred;
+  display: inline-flex;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.ProfilePhoto {
+  width: 225px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.message {
+  text-align: center;
+  width: 45vw;
+  margin-left: 50px;
+}
