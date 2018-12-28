@@ -18,6 +18,7 @@ class App extends Component {
         <Projects buttonName="Certifications" />
         <Certifications />
         <AboutMe />
+        <hr className="aboutme-hr" />
         <Footer />
       </div>
     );

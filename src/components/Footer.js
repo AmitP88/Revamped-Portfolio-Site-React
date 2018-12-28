@@ -15,10 +15,10 @@ export default class Footer extends Component {
       <footer>
         <h3 className="builtWithReact">Built with <span>React <img src={React_Logo} className="footer-react-logo" alt="React_Logo"/></span></h3>
         <div className="contactIcons">
-          <FontAwesomeIcon className="icon" icon={faLinkedin} />
-          <FontAwesomeIcon className="icon" icon={faTwitter} />
-          <FontAwesomeIcon className="icon" icon={faGithub} />
-          <FontAwesomeIcon className="icon" icon={faEnvelopeSquare} />
+          <FontAwesomeIcon className="icon" icon={faLinkedin} size="2x" />
+          <FontAwesomeIcon className="icon" icon={faTwitter} size="2x" />
+          <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
+          <FontAwesomeIcon className="icon" icon={faEnvelopeSquare} size="2x" />
         </div>
       </footer>
     );

@@ -164,3 +164,11 @@ img {
   position: relative;
 }
 
+.aboutme-hr {
+  height: 1px;
+  color: #2E2E2E;
+  background-color: darkslategray;
+  border: none;
+  margin: 0;
+}
+
