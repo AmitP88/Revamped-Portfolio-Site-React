@@ -20,6 +20,7 @@ export default class Footer extends Component {
           <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
           <FontAwesomeIcon className="icon" icon={faEnvelopeSquare} size="2x" />
         </div>
+        <p className="copyright">&copy; Copyright</p>
       </footer>
     );
   }
