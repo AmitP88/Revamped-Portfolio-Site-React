@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Projects buttonName="Certifications" />
         <Certifications />
         <AboutMe />
+        <Footer />
       </div>
     );
   }

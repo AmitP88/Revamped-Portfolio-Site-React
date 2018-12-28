@@ -1,0 +1,19 @@
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: #2E2E2E;
+}
+
+h3 {
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+span {
+  color: #00d8ff;  
+}
+
+.footer-react-logo {
+  width: 25px;
+  height: 25px;
+}
