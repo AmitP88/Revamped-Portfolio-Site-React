@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../css/CertCard.css';
-import '../css/media_queries.css';
 
 export default class CertCard extends Component {
   render(){

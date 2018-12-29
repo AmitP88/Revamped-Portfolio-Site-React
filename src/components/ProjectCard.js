@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../css/ProjectCard.css';
-import '../css/media_queries.css';
 
 export default class ProjectCard extends Component { 
     render() {
