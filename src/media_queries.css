@@ -1,9 +1,46 @@
 @media only screen and (min-width: 200px){
+  /* TitlePage */
   .title {
     font-size: 10vw;
   }
 
   .subtitle {
+    font-size: 5.5vw;
+  }
+
+  /* Skills */
+  .Skills-title {
+    font-size: 7vw;
+  }
+
+  .skills-animated {
+    top: 7%;
+  }
+
+  .row {
+    width: 100vw;
+  }
+
+  .Skill {
+    width: 60px;
+    height: 65px;
+    margin: 40px;
+  }
+
+  .Skills-Img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .Skill-name {
     font-size: 5vw;
   }
+
+  .Projects-button {
+    top: 15%;
+  }
+
+
+
 }

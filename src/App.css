@@ -103,15 +103,10 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
   margin-top: 50px;
   position: relative;
   top: 5%;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-  margin-top: 10px;
 }
 
 .aboutme-hr {

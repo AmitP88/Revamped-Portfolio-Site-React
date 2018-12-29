@@ -27,29 +27,29 @@ export default class Skills extends Component {
                     <h1 className="Skills-title">SKILLS</h1>
                 </Animated>
                 <div className="row">
-                    <div className="skill">
-                        <img src={logos.HTML5} alt={Object.keys(logos)[0]} />
-                        <h3>{Object.keys(logos)[0]}</h3>
+                    <div className="Skill">
+                        <img src={logos.HTML5} className="Skills-Img" alt={Object.keys(logos)[0]} />
+                        <h3 className="Skill-name">{Object.keys(logos)[0]}</h3>
                     </div>
-                    <div className="skill">
-                        <img src={logos.CSS3} alt={Object.keys(logos)[1]} />
-                        <h3>{Object.keys(logos)[1]}</h3>
+                    <div className="Skill">
+                        <img src={logos.CSS3} className="Skills-Img" alt={Object.keys(logos)[1]} />
+                        <h3 className="Skill-name">{Object.keys(logos)[1]}</h3>
                     </div>
-                    <div className="skill">
-                        <img src={logos.JavaScript} alt={Object.keys(logos)[2]} />
-                        <h3>{Object.keys(logos)[2]}</h3>
+                    <div className="Skill">
+                        <img src={logos.JavaScript} className="Skills-Img" alt={Object.keys(logos)[2]} />
+                        <h3 className="Skill-name">{Object.keys(logos)[2]}</h3>
                     </div>
-                    <div className="skill">
-                        <img src={logos.React} alt={Object.keys(logos)[3]} />
-                        <h3>{Object.keys(logos)[3]}</h3>
+                    <div className="Skill">
+                        <img src={logos.React} className="Skills-Img" alt={Object.keys(logos)[3]} />
+                        <h3 className="Skill-name">{Object.keys(logos)[3]}</h3>
                     </div>
-                    <div className="skill">
-                        <img src={logos.Redux} alt={Object.keys(logos)[4]} />
-                        <h3>{Object.keys(logos)[4]}</h3>
+                    <div className="Skill">
+                        <img src={logos.Redux} className="Skills-Img" alt={Object.keys(logos)[4]} />
+                        <h3 className="Skill-name">{Object.keys(logos)[4]}</h3>
                     </div>
-                    <div className="skill">
-                        <img src={logos.D3} alt={Object.keys(logos)[5]} />
-                        <h3>{Object.keys(logos)[5]}</h3>
+                    <div className="Skill">
+                        <img src={logos.D3} className="Skills-Img" alt={Object.keys(logos)[5]} />
+                        <h3 className="Skill-name">{Object.keys(logos)[5]}</h3>
                     </div>                    
                 </div>
                 <div className="Projects-button">
