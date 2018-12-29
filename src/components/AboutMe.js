@@ -10,7 +10,7 @@ export default class AboutMe extends Component {
           <img src={ProfilePhoto} className="ProfilePhoto" alt="ProfilePhoto"/>
           <p className="message">Hi! Thank you for visiting my website! My name is Amit and I'm an aspiring Front End Developer
           specializing in React. I love to solve problems, build attractive UI/UX, and develop interesting projects.
-          If you're hiring or you just want to chat, feel free to reach me at any of the links below. I hope you have a great day! :) </p>        
+          If you're hiring or you just want to chat, feel free to reach me at any of the links below. Have a great day! :) </p>        
         </div>
       </div>
     );
