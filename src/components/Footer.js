@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -19,7 +19,7 @@ export default class Footer extends Component {
           <FontAwesomeIcon className="icon" icon={faLinkedin} size="2x" />
           <FontAwesomeIcon className="icon" icon={faTwitter} size="2x" />
           <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
-          <FontAwesomeIcon className="icon" icon={faEnvelopeSquare} size="2x" />
+          <FontAwesomeIcon className="icon" icon={faEnvelope} size="2x" />
           <FontAwesomeIcon className="icon" icon={faWhatsapp} size="2x" />
         </div>
         <p className="copyright">&copy; Copyright</p>
