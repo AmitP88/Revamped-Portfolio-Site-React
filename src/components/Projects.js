@@ -12,7 +12,6 @@ import HeatMap from '../images/HeatMap.png';
 import WikiViewer from '../images/WikiViewer.png';
 
 export default class Projects extends Component {
-
     render(){
         const projectTech = {
             tictactoe : ['React', 'Redux', 'CSS3', 'JavaScript(ES6)'],
@@ -31,8 +30,6 @@ export default class Projects extends Component {
             heatmap : projectTech.heatmap.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             wikiviewer : projectTech.wikiviewer.map((item, index) => <li key={index} className="techListItem">{item}</li>)
         }
-
-
 
         return (
             <div className="Projects-container">
@@ -97,9 +94,6 @@ export default class Projects extends Component {
                         />
                     </div>                
                 </div>
-                <div className="Certifications-button">
-                    <a href="#" className="btn btn-green btn-animated">{this.props.buttonName}</a>                
-                </div> 
             </div>
         );
     }
