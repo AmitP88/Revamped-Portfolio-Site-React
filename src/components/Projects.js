@@ -17,7 +17,7 @@ export default class Projects extends Component {
         const projectTech = {
             tictactoe : ['React', 'Redux', 'CSS3', 'JavaScript(ES6)'],
             simon : ['React', 'Redux', 'CSS3', 'JavaScript(ES6)'],
-            pomodoro : ['React', 'Redux', 'CSS3', 'JavaScript(ES6)'],
+            pomodoro : ['HTML5', 'CSS3', 'JavaScript(ES6)'],
             khmerfamilycafe: ['HTML5', 'CSS3', 'Flickity API', 'Bootstrap', 'JavaScript(ES5)'],
             heatmap: ['HTML5', 'CSS3', 'D3', 'JavaScript(ES6)'],
             wikiviewer: ['HTML5', 'CSS3', 'jQuery', 'AJAX']
