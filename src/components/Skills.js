@@ -51,10 +51,7 @@ export default class Skills extends Component {
                         <img src={logos.D3} className="Skills-Img" alt={Object.keys(logos)[5]} />
                         <h3 className="Skill-name">{Object.keys(logos)[5]}</h3>
                     </div>                    
-                </div>
-                <div className="Projects-button">
-                    <a href="#" className="btn btn-white btn-animated">{this.props.buttonName}</a>                
-                </div>            
+                </div>          
             </div>
         );
     }
