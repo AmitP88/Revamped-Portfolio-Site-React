@@ -1,0 +1,29 @@
+.Skills-container {
+  height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(to top right, rgba(54, 0, 51, 0.7), rgba(11, 135, 147, 0.7)), url('../images//laptop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.Skills-title {
+  color: white;
+  letter-spacing: 20px;
+  font-size: 3.5vw;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+.skills-animated {
+  position: relative;
+  top: 5%;
+}
+
+.skill {
+  width: 150px;
+  height: 170px;
+  background-color: azure;
+  margin: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

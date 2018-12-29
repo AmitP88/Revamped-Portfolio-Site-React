@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Animated } from 'react-animated-css';
+import '../css/Skills.css';
 
 // Import logo images
 import HTML5_Logo_notext from '../images/HTML_Logo_notext.png';
