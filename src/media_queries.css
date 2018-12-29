@@ -38,7 +38,11 @@
   }
 
   /* Projects */
-
+  .Projects-title {
+    letter-spacing: 10px;
+    font-size: 7vw;
+    padding-top: 20%;
+  }
 
 
 }
