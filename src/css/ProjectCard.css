@@ -5,6 +5,7 @@
 
 .project-img {
   width: 100%;
+  height: 100%;
   border-radius: 2px;
   margin-top: 0;
   border-bottom: 1px lightgray solid;
@@ -13,6 +14,9 @@
 .flip-card {
     background-color: transparent;
     perspective: 1000px;
+    width: 100vw;
+    height: 200px;
+    margin-bottom: 100%;
 }
   
 /* This container is needed to position the front and back side */
