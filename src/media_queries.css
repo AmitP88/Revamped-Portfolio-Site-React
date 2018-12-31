@@ -41,6 +41,12 @@
     letter-spacing: 10px;
     font-size: 7vw;
     padding-top: 20%;
+    padding-bottom: 10%;
+  }
+
+  .flip-card {
+    margin: 0 auto;
+    margin-bottom: 100%;
   }
 
 

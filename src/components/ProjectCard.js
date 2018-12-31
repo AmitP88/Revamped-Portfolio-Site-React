@@ -12,7 +12,7 @@ export default class ProjectCard extends Component {
                 src={this.props.screenshot}
                 alt="Avatar"
               />
-              <h2 className="projectName">{this.props.projectName}</h2>
+              <h3 className="projectName">{this.props.projectName}</h3>
               <p className="description">{this.props.description}</p>
             </div>
             <div className="flip-card-back">
