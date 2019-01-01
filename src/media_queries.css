@@ -55,7 +55,7 @@
 
   .certImg {
     width: 90%;
-    height: 200px;
+    height: 30vh;
     position: relative;
     top: 30%;
     padding: 5%;
@@ -118,19 +118,13 @@
   }
 }
 
-@media only screen and (min-width: 375px){
-  .certImg {
-    height: 230px;
-  }
-}
-
 @media only screen and (min-width: 425px){
   .Skill-name {
     font-size: 4vw;
   }
 
   .certImg {
-    height: 260px;
+    height: 35vh;
   }
 
   .message {
