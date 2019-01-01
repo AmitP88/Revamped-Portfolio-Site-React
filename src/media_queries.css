@@ -102,7 +102,12 @@
   .builtWithReact {
     margin: 0 auto;
     text-align: center;
-    padding: 5%;
+  }
+
+  .contactIcons {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
   }
 
   .icon {
@@ -112,6 +117,9 @@
   .copyright {
     margin: 0 auto;
     text-align: center;
+  }
+
+  .ending-statement {
     padding: 5%;
   }
 

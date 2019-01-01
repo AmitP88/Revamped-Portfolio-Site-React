@@ -5,15 +5,20 @@ footer {
 
 .builtWithReact {
   color: whitesmoke;
+  display: flex;
 }
 
 span {
-  color: #00d8ff;  
+  color: #00d8ff;
+  display: flex;
+  text-align: center;
+  padding-left: 5px;
 }
 
 .footer-react-logo {
   width: 25px;
   height: 25px;
+  padding-left: 2px;
 }
 
 .contactIcons {
