@@ -10,9 +10,6 @@ export default class CertCard extends Component {
             <img className="certImg" src={this.props.certImg} alt=""/>
           </div>
           <div className="flip-cert-back">
-            <h1>Projects</h1>
-
-
             <div className="cert-projects-container">
               <div className="cert-project">
                 <h3 className="cert-project-name">{this.props.project_1_Name}</h3>

@@ -32,7 +32,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-cert-front {
-  background-color: transparent;
+  background-color: darkseagreen;
   color: black;
 }
 
@@ -51,7 +51,7 @@
 
 .cert-project {
   align-items: center;
-  margin-right: 5%;
+  padding-bottom: 5px;
 }
 
 .cert-project-name {
@@ -128,10 +128,6 @@
 .cert-button-lightgreen {
   background-color: lightgreen;
   padding: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
-  border-radius: 25px;
-  margin-right: 20px;
 }
 
 .cert-button-lightgreen::after {
@@ -146,5 +142,5 @@
 }
 
 .buttons-container {
-  margin-left: 3%;
+  margin-left: 5%;
 }
