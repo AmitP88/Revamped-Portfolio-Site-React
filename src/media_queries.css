@@ -79,6 +79,24 @@
     margin-top: 10px;
   }
 
+  /* AboutMe */
+  .About-Me {
+    height: 70vh;
+    padding-top: 10%;
+  }
+
+  .ProfilePhoto {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .message {
+    text-align: justify;
+    /* word-spacing: -2.1px; */
+  }
 
 
 

@@ -1,28 +1,17 @@
-.About-Me{
+.About-Me {
   width: 100vw;
-  height: 50vh;
   background-color: #2E2E2E;
   color: white;
   display: inline-flex;
 }
 
 .content {
-  display: flex;
   align-items: center;
   margin: 0 auto;
   width: 65%;
 }
 
 .ProfilePhoto {
-  width: 245px;
-  height: 200px;
   border-radius: 50%;
   border: 5px white solid;
-}
-
-.message {
-  text-align: center;
-  width: 55vw;
-  margin-left: 50px;
-  font-size: 1.5vw;
 }
