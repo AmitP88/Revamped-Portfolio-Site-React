@@ -100,7 +100,7 @@
   display: flex;
 }
 
-.cert-project-title, .cert-project-name {
+.cert-project-name {
   color: whitesmoke;
   text-align: center;
 }
