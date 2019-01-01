@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../css/CertCard.css';
+import '../css/Cert.css';
 
-export default class CertCard extends Component {
+export default class Cert extends Component {
   render(){
     return (
       <div className="cert-container">

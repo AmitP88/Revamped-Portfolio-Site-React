@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Certifications.css';
-import CertCard from '../components/CertCard';
+import Cert from './Cert';
 import certificationData from '../data/certificationsData';
 
 export default class Certifications extends Component {
@@ -9,7 +9,7 @@ export default class Certifications extends Component {
       <div className="certifications-container">
         <h1 className="certifications-title">CERTIFICATIONS</h1>
         <div className="cert-pair">
-          <CertCard 
+          <Cert 
             certImg={certificationData[0].certImg}
             certLink={certificationData[0].certLink}
             project_1_Name={certificationData[0].project1.Name}
@@ -30,7 +30,7 @@ export default class Certifications extends Component {
             project_4_repoLink={certificationData[0].project4.Repo}
             project_5_repoLink={certificationData[0].project5.Repo}
           />
-          <CertCard 
+          <Cert
             certImg={certificationData[1].certImg}
             certLink={certificationData[1].certLink}
             project_1_Name={certificationData[1].project1.Name}
@@ -53,7 +53,7 @@ export default class Certifications extends Component {
           />        
         </div>
         <div className="cert-pair">
-          <CertCard 
+          <Cert
             certImg={certificationData[2].certImg}
             certLink={certificationData[2].certLink}
             project_1_Name={certificationData[2].project1.Name}
@@ -74,7 +74,7 @@ export default class Certifications extends Component {
             project_4_repoLink={certificationData[2].project4.Repo}
             project_5_repoLink={certificationData[2].project5.Repo}
           />
-          <CertCard 
+          <Cert
             certImg={certificationData[3].certImg}
             certLink={certificationData[3].certLink}
             project_1_Name={certificationData[3].project1.Name}
