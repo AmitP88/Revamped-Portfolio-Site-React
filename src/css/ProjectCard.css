@@ -48,6 +48,7 @@
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: ghostwhite;
+  border: 5px #00BCD4 solid;
   color: black;
 }
   
