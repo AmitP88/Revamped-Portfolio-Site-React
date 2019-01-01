@@ -81,8 +81,8 @@
 
   /* AboutMe */
   .About-Me {
-    height: 70vh;
-    padding-top: 10%;
+    height: 65vh;
+    padding-top: 20%;
   }
 
   .ProfilePhoto {
@@ -96,6 +96,23 @@
   .message {
     text-align: justify;
     /* word-spacing: -2.1px; */
+  }
+
+  /* Footer */
+  .builtWithReact {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .icon {
+    padding: 5%;
+  }
+
+  .copyright {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
   }
 
 
