@@ -45,7 +45,7 @@
 
   .flip-card {
     margin: 0 auto;
-    margin-bottom: 100%;
+    margin-bottom: 50%;
   }
 
   /* Certifications */
@@ -125,6 +125,10 @@
 }
 
 @media only screen and (min-width: 425px){
+  .Skill-name {
+    font-size: 4vw;
+  }
+
   .certImg {
     height: 260px;
   }
