@@ -24,7 +24,7 @@ export default class Cert extends Component {
           <button onClick={this.onOpenModal} className="cert-link cert-button cert-button-lightgreen cert-button-animated" target="_blank" rel="noopener noreferrer">PROJECTS</button>       
         </div>
         <Modal open={open} onClose={this.onCloseModal} center>
-          <h2>Projects</h2>
+          <h2 className="cert-project-title">Projects</h2>
           <div className="cert-project">
             <h3 className="cert-project-name">{this.props.project_1_Name}</h3>
             <div className="buttons-container">

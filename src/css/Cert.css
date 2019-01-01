@@ -92,8 +92,20 @@
 .cert-link:link,
 .cert-link:visited {
   width: 100px;
+  margin: 10%;
 }
 
 .buttons-container {
   margin-left: 5%;
+  display: flex;
+}
+
+.cert-project-title, .cert-project-name {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.styles_modal__gNwvD {
+  background: darkgreen;
+  text-align: center;
 }
