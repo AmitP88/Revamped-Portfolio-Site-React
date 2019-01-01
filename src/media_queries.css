@@ -128,6 +128,10 @@
   .certImg {
     height: 260px;
   }
+
+  .message {
+    font-size: 4vw;
+  }
 }
 
 
