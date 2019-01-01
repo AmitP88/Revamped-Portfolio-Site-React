@@ -55,7 +55,7 @@
 
   .certImg {
     width: 90%;
-    height: 215px;
+    height: 200px;
     position: relative;
     top: 30%;
     padding: 5%;
@@ -116,10 +116,16 @@
   .ending-statement {
     padding: 5%;
   }
-
-
-
 }
+
+@media only screen and (min-width: 375px){
+  .certImg {
+    height: 230px;
+  }
+}
+
+
+
 
 @media only screen and (min-width: 768px) {
   .cert-pair {
