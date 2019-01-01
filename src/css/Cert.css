@@ -93,6 +93,8 @@
 .cert-link:visited {
   width: 100px;
   margin: 10%;
+  color: black;
+  background-color: aquamarine;
 }
 
 .buttons-container {
