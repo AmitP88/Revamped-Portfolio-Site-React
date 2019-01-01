@@ -1,15 +1,31 @@
 import React, { Component } from 'react';
+import Modal from 'react-responsive-modal';
 import '../css/Cert.css';
 
 export default class Cert extends Component {
+  state = {
+    open: false
+  };
+
+  onOpenModal = () => {
+    this.setState({ open: true });
+  };
+ 
+  onCloseModal = () => {
+    this.setState({ open: false });
+  };
+
   render(){
+    const { open } = this.state;
     return (
       <div className="cert-container">
         <div className="cert">
           <img className="certImg" src={this.props.certImg} alt=""/>
-          <a href={this.props.certLink} className="cert-link cert-button cert-button-lightgreen cert-button-animated" target="_blank" rel="noopener noreferrer">Projects</a>       
+          <button onClick={this.onOpenModal} className="cert-link cert-button cert-button-lightgreen cert-button-animated" target="_blank" rel="noopener noreferrer">PROJECTS</button>       
         </div>
-
+        <Modal open={open} onClose={this.onCloseModal} center>
+          <h1>Projects</h1>
+        </Modal>
       </div>
     );
   }
