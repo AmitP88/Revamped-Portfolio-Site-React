@@ -21,13 +21,9 @@ span {
   padding-left: 2px;
 }
 
-.contactIcons {
-  position: relative;
-  margin: 0 auto;
-}
-
 .icon {
   color: white;
+  margin: 0 auto;
 }
 
 .icon:hover {
