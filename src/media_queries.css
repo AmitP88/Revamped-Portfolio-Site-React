@@ -138,7 +138,7 @@
   }
 
   .Skills-title {
-    font-size: 40px;
+    font-size: 37px;
   }
 
   .Skill-name {
@@ -147,7 +147,7 @@
 
   .Projects-title {
     letter-spacing: 5px;
-    font-size: 7vw;
+    font-size: 40px;
     padding: 15% 5% 5% 5%;
   }
 
@@ -170,6 +170,13 @@
   }
 }
 
+@media only screen and (min-width: 667px) {
+  .flip-card {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   /* .Skills-title {
     font-size: 5vw;
@@ -177,8 +184,7 @@
 
   .Projects-title {
     letter-spacing: 5px;
-    font-size: 4.5vw;
-    padding: 10% 5% 5% 5%;
+    padding: 10% 5% 0 5%;
   }
 
   .Skill-name {
@@ -247,6 +253,12 @@
   }
 }
 
+@media only screen and (min-width: 1000px) and (max-width: 1023px){
+  .flip-card {
+    padding: 5%;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .animated {
     margin-left: 0;
@@ -283,7 +295,7 @@
   }
 
   .certImg {
-    height: 45vh;
+    height: 40vh;
   }
 
   .About-Me {
