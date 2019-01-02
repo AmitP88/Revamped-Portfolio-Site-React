@@ -121,6 +121,10 @@
 }
 
 @media only screen and (min-width: 425px){
+  .subtitle {
+    font-size: 4.5vw;
+  }
+
   .Skill-name {
     font-size: 4vw;
   }
