@@ -137,8 +137,12 @@
     font-size: 4.5vw;
   }
 
+  .Skills-title {
+    font-size: 40px;
+  }
+
   .Skill-name {
-    font-size: 4vw;
+    font-size: 16px;
   }
 
   .Projects-title {
@@ -167,9 +171,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .Skills-title {
+  /* .Skills-title {
     font-size: 5vw;
-  }
+  } */
 
   .Projects-title {
     letter-spacing: 5px;
@@ -179,7 +183,7 @@
 
   .Skill-name {
     margin-top: 5px;
-    font-size: 2.5vw;
+    font-size: 18px;
   }
 
   .flip-card {
@@ -261,10 +265,6 @@
 
   .Skills-title {
     font-size: 4vw;
-  }
-
-  .Skill-name {
-    font-size: 2vw;
   }
 
   .Projects-title {
