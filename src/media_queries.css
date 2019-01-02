@@ -294,6 +294,14 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .title {
+    font-size: 8vw;
+  }
+
+  .subtitle {
+    font-size: 4vw;
+  }
+
   .Skills-title {
     font-size: 3vw;
   }
@@ -317,8 +325,8 @@
   }
 
   .About-Me {
-    height: 20vh;
-    padding-top: 10%;
+    height: 30vh;
+    padding-top: 15%;
   }
 
   .content {
