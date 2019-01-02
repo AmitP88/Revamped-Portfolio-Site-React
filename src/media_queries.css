@@ -1,4 +1,4 @@
-@media only screen and (min-width: 200px){
+@media only screen and (min-width: 200px) {
   /* TitlePage */
   .title {
     font-size: 10vw;
@@ -42,6 +42,11 @@
     letter-spacing: 10px;
     font-size: 8vw;
     padding: 20% 5% 10% 5%;
+  }
+
+  .cards-row {
+    width: 90vw;
+    margin: 5%;
   }
 
   .flip-card {
@@ -120,7 +125,7 @@
   }
 }
 
-@media only screen and (min-width: 425px){
+@media only screen and (min-width: 425px) {
   .subtitle {
     font-size: 4.5vw;
   }
@@ -198,7 +203,53 @@
   .ending-statement {
     padding: 0 0 5% 0;
   }
+}
 
+@media only screen and (min-width: 1024px) {
+  .animated {
+    margin-left: 0;
+  }
 
+  .Skill {
+    width: 100px;
+    height: 100px;
+    margin: 35px;
+  }
+
+  .Skills-Img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .Skills-title {
+    font-size: 4vw;
+  }
+
+  .Skill-name {
+    font-size: 2vw;
+  }
+
+  .Projects-title {
+    letter-spacing: 4px;
+    font-size: 3.5vw;
+    padding: 10% 5% 5% 5%;
+  }
+
+  .cards-row {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .cert-pair {
+    padding-bottom: 10%;
+  }
+
+  .certImg {
+    height: 45vh;
+  }
+
+  .message {
+    font-size: 2vw;
+  }
 
 }
