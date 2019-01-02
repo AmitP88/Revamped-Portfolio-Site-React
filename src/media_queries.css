@@ -188,6 +188,7 @@
 
   .About-Me {
     height: 30vh;
+    display: flex;
   }
 
   .content {
@@ -199,7 +200,7 @@
   }
 
   .ProfilePhoto {
-    width: 200px;
+    width: 190px;
     height: 175px;
   }
 
@@ -207,7 +208,7 @@
     font-size: 2.5vw;
     width: 75%;
     margin: 0 auto;
-    padding: 5%;
+    padding: 2%;
   }
 
   .builtWithReact, .copyright {
@@ -275,12 +276,69 @@
   }
 
   .About-Me {
-    height: 25vh;
+    height: 26vh;
     padding-top: 15%;
+  }
+
+  .ProfilePhoto {
+    width: 190px;
+    height: 175px;
+    margin-right: 0;
   }
 
   .message {
     font-size: 2vw;
+    width: 62%;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+  .Skills-title {
+    font-size: 3vw;
+  }
+
+  .Skill-name {
+    font-size: 1.5vw;
+  }
+
+  .Projects-title {
+    letter-spacing: 4px;
+    font-size: 3vw;
+    padding: 10% 5% 5% 5%;  
+  }
+
+  .certifications-title {
+    font-size: 3vw;
+  }
+
+  .certImg {
+    height: 50vh;
+  }
+
+  .About-Me {
+    height: 20vh;
+    padding-top: 10%;
+  }
+
+  .content {
+    width: 75%;
+  }
+
+  .ProfilePhoto {
+    width: 200px;
+    height: 200px;
+    margin-right: 0;
+  }
+
+  .message {
+    font-size: 1.5vw;
+    width: 60%;
+    padding: 0;
+  }
+
+  .ending-statement {
+    padding: 2% 0 2% 0;
   }
 
 }
