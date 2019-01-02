@@ -101,9 +101,10 @@
   }
 
   /* Footer */
-  .builtWithReact {
+  .builtWithReact, .copyright {
     margin: 0 auto;
     text-align: center;
+    padding: 10px;
   }
 
   .contactIcons {
@@ -114,11 +115,6 @@
 
   .icon {
     padding: 5%;
-  }
-
-  .copyright {
-    margin: 0 auto;
-    text-align: center;
   }
 
   .ending-statement {
@@ -207,6 +203,7 @@
     position: relative;
     top: 50%;
     transform: translateY(35%);
+    padding: 0;
   }
 
   .contactIcons {
