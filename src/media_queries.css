@@ -87,6 +87,10 @@
     padding-top: 20%;
   }
 
+  .content {
+    width: 75%;
+  }
+
   .ProfilePhoto {
     width: 120px;
     height: 120px;
@@ -183,20 +187,27 @@
   }
 
   .About-Me {
-    height: 65vh;
-    padding-top: 10%;
+    height: 30vh;
+  }
+
+  .content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    bottom: 40%;
+    padding: 5%;
   }
 
   .ProfilePhoto {
-    width: 180px;
-    height: 180px;
+    width: 210px;
+    height: 175px;
   }
 
   .message {
     font-size: 2.5vw;
     width: 75%;
     margin: 0 auto;
-    padding-top: 5%;
+    padding: 5%;
   }
 
   .builtWithReact, .copyright {
