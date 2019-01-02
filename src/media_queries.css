@@ -129,6 +129,12 @@
     font-size: 4vw;
   }
 
+  .Projects-title {
+    letter-spacing: 5px;
+    font-size: 7vw;
+    padding: 15% 5% 5% 5%;
+  }
+
   .certImg {
     height: 35vh;
   }
