@@ -14,15 +14,15 @@ export default class Footer extends Component {
   render(){
     return (
       <footer>
-        <div className="contactIcons">
-          <FontAwesomeIcon className="icon" icon={faLinkedin} size="2x" />
-          <FontAwesomeIcon className="icon" icon={faTwitter} size="2x" />
-          <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
-          <FontAwesomeIcon className="icon" icon={faEnvelope} size="2x" />
-          <FontAwesomeIcon className="icon" icon={faWhatsapp} size="2x" />
-        </div>
         <div className="ending-statement">
-          <h4 className="builtWithReact">Built with <span>React <img src={React_Logo} className="footer-react-logo" alt="React_Logo"/></span></h4>        
+          <h4 className="builtWithReact">Built with <span>React <img src={React_Logo} className="footer-react-logo" alt="React_Logo"/></span></h4>
+          <div className="contactIcons">
+            <FontAwesomeIcon className="icon" icon={faLinkedin} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faTwitter} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faEnvelope} size="2x" />
+            <FontAwesomeIcon className="icon" icon={faWhatsapp} size="2x" />
+          </div>                 
           <p className="copyright">&copy; Copyright</p>        
         </div>
       </footer>

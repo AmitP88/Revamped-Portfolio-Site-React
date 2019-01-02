@@ -33,6 +33,7 @@ span {
 
 .ending-statement {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .copyright {
