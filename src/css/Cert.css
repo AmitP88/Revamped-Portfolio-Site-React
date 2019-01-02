@@ -75,6 +75,7 @@
 }
 
 .cert-button-lightgreen {
+  color: darkgreen;
   background-color: lightseagreen;
   padding: 15px;
   border: none;
