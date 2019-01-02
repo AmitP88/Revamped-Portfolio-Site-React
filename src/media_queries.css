@@ -78,7 +78,7 @@
 
   /* AboutMe */
   .About-Me {
-    height: 65vh;
+    height: 60vh;
     padding-top: 20%;
   }
 
@@ -175,6 +175,7 @@
   }
 
   .About-Me {
+    height: 65vh;
     padding-top: 10%;
   }
 
