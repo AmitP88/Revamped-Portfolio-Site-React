@@ -107,9 +107,8 @@
   }
 
   .contactIcons {
-    padding-top: 5%;
-    text-align: center;
     display: flex;
+    padding: 5%;
   }
 
   .icon {
