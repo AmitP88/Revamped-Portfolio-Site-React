@@ -177,6 +177,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .animated {
+    margin-left: 2.5%;
+  }
+
   .Projects-title {
     letter-spacing: 5px;
     padding: 10% 5% 0 5%;
@@ -256,7 +260,7 @@
 
 @media only screen and (min-width: 1024px) {
   .animated {
-    margin-left: 0;
+    margin-left: 2.5%;
   }
 
   .Skill {
