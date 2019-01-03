@@ -72,12 +72,12 @@ let certificationsData = [
     project1: {
       Name: 'Random Quote Machine',
       Demo: 'https://amitp88.github.io/Random-Joke-Machine-React-Version/',
-      Repo: 'https://github.com/AmitP88/Random-Joke-Machine'
+      Repo: 'https://github.com/AmitP88/Random-Joke-Machine-React-Version'
     },
     project2: {
       Name: 'Markdown Previewer',
       Demo: 'https://amitp88.github.io/Markdown-Previewer-React-Version/',
-      Repo: 'https://github.com/AmitP88/Random-Joke-Machine'
+      Repo: 'https://github.com/AmitP88/Random-Joke-Machine-React-Version'
     },
     project3: {
       Name: 'Drum Machine',
