@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
 import '../css/ProjectCard.css';
 
 export default class ProjectCard extends Component { 
@@ -14,6 +16,7 @@ export default class ProjectCard extends Component {
               />
               <h3 className="projectName">{this.props.projectName}</h3>
               <p className="description">{this.props.description}</p>
+              <FontAwesomeIcon className="arrow"  icon={faArrowAltCircleRight} size="2x" /> 
             </div>
             <div className="flip-card-back">
                 <h3 className="techList-title">Tech Used</h3>
