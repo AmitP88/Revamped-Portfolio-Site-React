@@ -55,9 +55,7 @@
   
 /* Style the back side */
 .flip-card-back {
-  background: #06beb6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00BCD4;  /* fallback for old browsers */
   color: white;
   transform: rotateY(180deg);
   border-radius: 5px;
