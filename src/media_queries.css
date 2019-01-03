@@ -169,7 +169,7 @@
   }
 }
 
-@media only screen and (min-width: 667px) {
+@media only screen and (min-width: 667px) and (max-width: 767px) {
   .flip-card {
     padding-left: 5%;
     padding-right: 5%;
