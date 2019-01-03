@@ -101,7 +101,6 @@
 
   .message {
     text-align: justify;
-    /* word-spacing: -2.1px; */
   }
 
   /* Footer */
@@ -152,7 +151,7 @@
   }
 
   .certImg {
-    height: 35vh;
+    height: auto;
   }
 
   .About-Me {
@@ -178,10 +177,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  /* .Skills-title {
-    font-size: 5vw;
-  } */
-
   .Projects-title {
     letter-spacing: 5px;
     padding: 10% 5% 0 5%;
@@ -253,7 +248,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1023px){
+@media only screen and (min-width: 1000px) and (max-width: 1023px) {
   .flip-card {
     padding: 5%;
   }
@@ -295,7 +290,7 @@
   }
 
   .certImg {
-    height: 40vh;
+    height: 45vh;
   }
 
   .About-Me {
