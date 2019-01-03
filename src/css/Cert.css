@@ -69,11 +69,6 @@
   opacity: 0;
 }
 
-.cert-button-animated {
-  animation: moveInBottom .5s ease-out 3s;
-  animation-fill-mode: backwards;
-}
-
 .cert-button-lightgreen {
   color: ghostwhite;
   background-color: green;
