@@ -18,6 +18,10 @@
     top: 7%;
   }
 
+  .Skills-container {
+    height: 110vh;    
+  }
+
   .row {
     width: 100vw;
   }
@@ -189,6 +193,10 @@
   .Skill-name {
     margin-top: 5px;
     font-size: 18px;
+  }
+
+  .Skills-container {
+    height: 100vh;    
   }
 
   .flip-card {
