@@ -66,7 +66,7 @@
 
   .certImg {
     width: 90%;
-    height: 35vh;
+    height: 30vh;
     position: relative;
     top: 30%;
     padding: 5%;
@@ -135,7 +135,7 @@
   }
 
   .certImg {
-    height: 40vh;
+    height: 35vh;
   }
 }
 
@@ -159,7 +159,7 @@
   }
 
   .certImg {
-    height: 45vh;
+    height: auto;
   }
 
   .About-Me {
