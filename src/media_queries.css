@@ -133,6 +133,10 @@
   .Skill-name {
     font-size: 4.5vw;
   }
+
+  .certImg {
+    height: 40vh;
+  }
 }
 
 @media only screen and (min-width: 425px) {
@@ -155,7 +159,7 @@
   }
 
   .certImg {
-    height: 40vh;
+    height: auto;
   }
 
   .About-Me {
