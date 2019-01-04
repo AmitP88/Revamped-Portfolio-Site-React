@@ -19,3 +19,11 @@ These are my main projects that I would say are my best ones. You can expect me 
 ### Certifications
 This section shows the certifications I've earned so far through freecodecamp.org. I've earned 4/6 so far and am aiming on completing the last two to learn MERN stack (mongoDB, express, react, node).
 ![Certifications](https://github.com/AmitP88/Revamped-Portfolio-Site-React/blob/master/Certifications.png)
+
+### AboutMe
+A little info about who I am and what I'm passionate about.
+![AboutMe](https://github.com/AmitP88/Revamped-Portfolio-Site-React/blob/master/AboutMe.png)
+
+To visit my new portfolio site, please visit https://imamitpatel.com/
+
+Have an awesome day! :)
