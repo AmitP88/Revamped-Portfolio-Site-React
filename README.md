@@ -11,3 +11,7 @@ This is my latest version of my portfolio site. I decided to revamp my previous 
 ### Skills
 This is my current skill list of what I've learned so far in web development. I will be expanding this section for the indefinite future :)
 ![Skills](https://github.com/AmitP88/Revamped-Portfolio-Site-React/blob/master/Skills.png)
+
+### Projects
+These are my main projects that I would say are my best ones. You can expect me to also expand this section indefinitely, as I plan on building more interesting stuff.
+![Projects](https://github.com/AmitP88/Revamped-Portfolio-Site-React/blob/master/Projects.png)
