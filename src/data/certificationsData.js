@@ -41,28 +41,28 @@ let certificationsData = [
     certLink: 'https://www.freecodecamp.org/certification/amitp88/javascript-algorithms-and-data-structures',
     project1: {
       Name: 'Palindrome Checker',
-      Demo: '#',
-      Repo: '#'
+      Demo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js',
+      Repo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js'
     },
     project2: {
       Name: 'Roman Numeral Converter',
-      Demo: '#',
-      Repo: '#'
+      Demo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js',
+      Repo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js'
     },
     project3: {
       Name: 'Caesars Cipher',
-      Demo: '#',
-      Repo: '#'
+      Demo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js',
+      Repo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js'
     },
     project4: {
       Name: 'Telephone Number Validator',
-      Demo: '#',
-      Repo: '#'
+      Demo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js',
+      Repo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js'
     },
     project5: {
       Name: 'Cash Register',
-      Demo: '#',
-      Repo: '#'
+      Demo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js',
+      Repo: 'https://github.com/AmitP88/FreeCodeCamp---Algorithms/blob/master/AlgorithmProjects.js'
     }
   },
   {
