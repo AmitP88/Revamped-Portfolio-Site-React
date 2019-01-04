@@ -15,3 +15,7 @@ This is my current skill list of what I've learned so far in web development. I 
 ### Projects
 These are my main projects that I would say are my best ones. You can expect me to also expand this section indefinitely, as I plan on building more interesting stuff.
 ![Projects](https://github.com/AmitP88/Revamped-Portfolio-Site-React/blob/master/Projects.png)
+
+### Certifications
+This section shows the certifications I've earned so far through freecodecamp.org. I've earned 4/6 so far and am aiming on completing the last two to learn MERN stack (mongoDB, express, react, node).
+![Certifications](https://github.com/AmitP88/Revamped-Portfolio-Site-React/blob/master/Certifications.png)
