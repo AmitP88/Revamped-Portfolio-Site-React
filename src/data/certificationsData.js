@@ -76,12 +76,12 @@ let certificationsData = [
     },
     project2: {
       Name: 'Markdown Previewer',
-      Demo: 'https://amitp88.github.io/Markdown-Previewer-React-Version/',
+      Demo: 'https://markdown-previewer-react-v.herokuapp.com/',
       Repo: 'https://github.com/AmitP88/Random-Joke-Machine-React-Version'
     },
     project3: {
       Name: 'Drum Machine',
-      Demo: 'https://amitp88.github.io/Drum-Machine-React-Version/',
+      Demo: 'https://drum-machine-react-version.herokuapp.com/',
       Repo: 'https://github.com/AmitP88/Drum-Machine-React-Version'
     },
     project4: {
