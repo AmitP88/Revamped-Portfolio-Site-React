@@ -59,6 +59,10 @@
   }
 
   /* Certifications */
+  .certifications-container {
+    padding-bottom: 10%;
+  }
+
   .certifications-title {
     padding: 20% 5% 10% 5%;
     letter-spacing: 1px;
