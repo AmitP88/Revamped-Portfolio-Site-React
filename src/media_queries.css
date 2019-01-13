@@ -42,6 +42,10 @@
   }
 
   /* Projects */
+  .Projects-container {
+    padding-bottom: 5%;
+  }
+
   .Projects-title {
     letter-spacing: 10px;
     font-size: 8vw;
