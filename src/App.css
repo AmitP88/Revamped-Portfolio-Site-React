@@ -8,7 +8,7 @@ html, body {
 }
 
 .title, .subtitle, .Skills-title, .Projects-title, .certifications-title {
-  font-weight: lighter;
+  font-weight: 500;
 }
 
 .animated {
