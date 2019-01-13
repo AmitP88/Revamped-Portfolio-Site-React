@@ -17,13 +17,11 @@
     position: relative;
     color: ghostwhite;
     font-family: Simplifica;
-    font-weight: lighter;
     letter-spacing: 20px;
   }
 
   .subtitle {
     font-family: Consolas, monaco, monospace;
-    font-weight: lighter;
     color: ghostwhite;
     position: relative;
     top: 23%;
