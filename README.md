@@ -24,6 +24,6 @@ This section shows the certifications I've earned so far through freecodecamp.or
 A little info about who I am and what I'm passionate about.
 ![AboutMe](https://github.com/AmitP88/Revamped-Portfolio-Site-React/blob/master/AboutMe.png)
 
-To visit my new portfolio site, please visit https://imamitpatel.com/
+To visit my new portfolio site, please visit http://portfolio-site-react.herokuapp.com/
 
 Have an awesome day! :)
