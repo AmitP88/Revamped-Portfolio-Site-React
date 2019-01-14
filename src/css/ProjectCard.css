@@ -66,6 +66,7 @@
   margin-top: 5px;
   margin-bottom: 0;
   text-align: justify;
+  word-spacing: -3px;
 }
 
 .arrow {
