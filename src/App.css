@@ -5,6 +5,7 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  letter-spacing: 1px;
 }
 
 .title, .subtitle, .Skills-title, .Projects-title, .certifications-title {
