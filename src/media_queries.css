@@ -98,6 +98,7 @@
   .About-Me {
     height: 60vh;
     padding-top: 25%;
+    padding-bottom: 15%;
   }
 
   .content {
@@ -142,10 +143,6 @@
   .Skill-name {
     font-size: 4.5vw;
   }
-
-  .About-Me {
-    padding-bottom: 15%;
-  }
 }
 
 @media only screen and (min-width: 425px) {
@@ -170,7 +167,6 @@
   .About-Me {
     height: 55vh;
     padding-top: 15%;
-    padding-bottom: 15%;
   }
 
   .ProfilePhoto {
