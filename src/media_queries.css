@@ -115,6 +115,7 @@
 
   .message {
     text-align: justify;
+    letter-spacing: 0px;
   }
 
   /* Footer */
