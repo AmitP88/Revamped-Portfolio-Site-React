@@ -32,14 +32,14 @@
   }
 
   .Skill {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     margin: 40px;
   }
 
   .Skills-Img {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
   }
 
   .Skill-name {
@@ -157,6 +157,17 @@
 
   .Skills-title {
     font-size: 37px;
+  }
+
+  .Skill {
+    width: 75px;
+    height: 75px;
+    margin: 40px;
+  }
+
+  .Skills-Img {
+    width: 75px;
+    height: 75px;
   }
 
   .Skill-name {
