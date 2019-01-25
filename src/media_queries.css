@@ -20,7 +20,7 @@
 
   .Skills-container {
     height: 110vh;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
   }
 
   .Skills-title {
@@ -29,6 +29,7 @@
 
   .row {
     width: 100vw;
+    padding-bottom: 10%;
   }
 
   .Skill {
