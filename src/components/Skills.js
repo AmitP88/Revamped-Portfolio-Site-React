@@ -9,6 +9,7 @@ import JavaScript_Logo from '../images/JavaScript_Logo.png';
 import React_Logo from '../images/React_Logo.png';
 import Redux_Logo from '../images/Redux_Logo.png';
 import D3_Logo from '../images/D3_Logo.png';
+import Git_Windows from '../images/Git_Windows.png';
 
 const logos = {
     HTML5: HTML5_Logo_notext,
@@ -16,7 +17,8 @@ const logos = {
     JavaScript: JavaScript_Logo,
     React: React_Logo,
     Redux: Redux_Logo,
-    D3: D3_Logo
+    D3: D3_Logo,
+    Git: Git_Windows
 };
 
 export default class Skills extends Component {
@@ -50,7 +52,11 @@ export default class Skills extends Component {
                     <div className="Skill">
                         <img src={logos.D3} className="Skills-Img" alt={Object.keys(logos)[5]} />
                         <h3 className="Skill-name">{Object.keys(logos)[5]}</h3>
-                    </div>                    
+                    </div>
+                    <div className="Skill">
+                        <img src={logos.Git} className="Skills-Img" alt={Object.keys(logos)[6]} />
+                        <h3 className="Skill-name">{Object.keys(logos)[6]}</h3>
+                    </div>
                 </div>          
             </div>
         );

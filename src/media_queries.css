@@ -23,6 +23,10 @@
     padding-bottom: 5%;
   }
 
+  .Skills-title {
+    padding-top: 5%;
+  }
+
   .row {
     width: 100vw;
   }
@@ -182,6 +186,10 @@
 }
 
 @media only screen and (min-width: 667px) and (max-width: 767px) {
+  .Skills-title {
+    padding-top: 15%;
+  }
+
   .flip-card {
     padding-left: 5%;
     padding-right: 5%;
@@ -196,6 +204,10 @@
   .Projects-title {
     letter-spacing: 5px;
     padding: 10% 5% 0 5%;
+  }
+
+  .Skills-title {
+    padding-top: 15%;
   }
 
   .Skill-name {
