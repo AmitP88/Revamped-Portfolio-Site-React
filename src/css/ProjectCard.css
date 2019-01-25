@@ -62,10 +62,8 @@
 }
 
 .description {
-  margin: 20px;
-  margin-top: 5px;
-  margin-bottom: 0;
-  word-spacing: -3px;
+  margin: 5px 17px 0;
+  word-spacing: 0px;
 }
 
 .arrow {
