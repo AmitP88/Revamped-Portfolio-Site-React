@@ -143,6 +143,11 @@
   .ending-statement {
     padding: 5% 0 5% 0;
   }
+
+  .footer-react-logo {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media only screen and (min-width: 375px) {
@@ -294,6 +299,11 @@
 
   .ending-statement {
     padding: 5%;
+  }
+
+  .footer-react-logo {
+    width: 25px;
+    height: 25px;
   }
 }
 
