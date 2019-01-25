@@ -68,6 +68,10 @@
     margin-bottom: 50%;
   }
 
+  .description {
+    padding: 2px;
+  }
+
   /* Certifications */
   .certifications-container {
     padding-bottom: 10%;
@@ -153,6 +157,10 @@
 @media only screen and (min-width: 375px) {
   .Skill-name {
     font-size: 4.5vw;
+  }
+
+  .description {
+    padding: 7px;
   }
 }
 
