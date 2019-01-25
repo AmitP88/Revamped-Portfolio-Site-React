@@ -20,7 +20,7 @@
 
   .Skills-container {
     height: 110vh;
-    padding-bottom: 5%;
+    padding-bottom: 25%;
   }
 
   .Skills-title {
@@ -154,6 +154,10 @@
 @media only screen and (min-width: 425px) {
   .subtitle {
     font-size: 4.5vw;
+  }
+
+  .Skills-container {
+    padding-bottom: 10%;
   }
 
   .Skills-title {
