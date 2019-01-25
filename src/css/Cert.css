@@ -37,6 +37,18 @@
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
+.AlgoCert-button-white:link,
+.AlgoCert-button-white:visited {
+  background-color: white;
+  color: #777;
+  width: 130px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
 .cert-button-white {
   background-color: white;
   color: #777;
@@ -98,6 +110,7 @@
 .buttons-container {
   margin-left: 5%;
   display: flex;
+  justify-content: center;
 }
 
 .cert-project-name {

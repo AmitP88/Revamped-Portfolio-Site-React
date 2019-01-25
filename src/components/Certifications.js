@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Certifications.css';
 import Cert from './Cert';
+import AlgoCert from './AlgoCert';
 import certificationData from '../data/certificationsData';
 
 export default class Certifications extends Component {
@@ -30,7 +31,7 @@ export default class Certifications extends Component {
             project_4_repoLink={certificationData[0].project4.Repo}
             project_5_repoLink={certificationData[0].project5.Repo}
           />
-          <Cert
+          <AlgoCert
             certImg={certificationData[1].certImg}
             certLink={certificationData[1].certLink}
             project_1_Name={certificationData[1].project1.Name}
@@ -39,17 +40,11 @@ export default class Certifications extends Component {
             project_4_Name={certificationData[1].project4.Name}
             project_5_Name={certificationData[1].project5.Name}
 
-            project_1_demoLink={certificationData[1].project1.Demo}
-            project_2_demoLink={certificationData[1].project2.Demo}
-            project_3_demoLink={certificationData[1].project3.Demo}
-            project_4_demoLink={certificationData[1].project4.Demo}
-            project_5_demoLink={certificationData[1].project5.Demo}
-
-            project_1_repoLink={certificationData[1].project1.Repo}
-            project_2_repoLink={certificationData[1].project2.Repo}
-            project_3_repoLink={certificationData[1].project3.Repo}
-            project_4_repoLink={certificationData[1].project4.Repo}
-            project_5_repoLink={certificationData[1].project5.Repo}
+            project_1_solutionLink={certificationData[1].project1.Solution}
+            project_2_solutionLink={certificationData[1].project2.Solution}
+            project_3_solutionLink={certificationData[1].project3.Solution}
+            project_4_solutionLink={certificationData[1].project4.Solution}
+            project_5_solutionLink={certificationData[1].project5.Solution}
           />        
         </div>
         <div className="cert-pair">
