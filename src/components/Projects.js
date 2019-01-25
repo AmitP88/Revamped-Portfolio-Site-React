@@ -61,7 +61,7 @@ export default class Projects extends Component {
                             projectName='Pomodoro Timer'
                             description='A timer to set one countdown for work time,
                                          and one for break time that starts once work timer ends and vice versa.
-                                         Comes with countdown rings.'
+                                         Comes with SVG countdown rings.'
                             techUsed={techList.pomodoro}
                             demoLink={'https://amitp88.github.io/Pomodoro-Timer/'}
                             repoLink={'https://github.com/AmitP88/Pomodoro-Timer'}
