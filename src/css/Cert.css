@@ -49,6 +49,10 @@
   margin-right: 20px;
 }
 
+.AlgoCert-button-white::after {
+  background-color: white;
+}
+
 .cert-button-white {
   background-color: white;
   color: #777;
