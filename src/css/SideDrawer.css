@@ -22,6 +22,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .side-drawer li {
@@ -38,6 +40,5 @@
 .side-drawer li:hover,
 .side-drawer li:active {
   width: 100%;
-  background-color: cornflowerblue;
-  color: ghostwhite;    
+  background-color: cornflowerblue; 
 }
