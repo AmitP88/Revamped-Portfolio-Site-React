@@ -38,7 +38,7 @@
 }
 
 .ToolBar-navigation-items li {
-  padding: 0 0.5rem;
+  padding: 0 1rem;
 }
 
 .ToolBar-navigation-items a {
@@ -48,5 +48,9 @@
 
 .ToolBar-navigation-items a:hover,
 .ToolBar-logo a:hover {
-  color: blue;
+  color: #85144b;
+}
+
+.toolbar-toggle-button:hover .toggle-button .toggle-button-line {
+  background-color: #85144b;
 }

@@ -384,7 +384,7 @@
   }
 
   .ProfilePhoto {
-    width: 180px;
+    width: 175px;
     height: 175px;
     margin-right: 0;
   }
@@ -430,12 +430,6 @@
 
   .content {
     width: 75%;
-  }
-
-  .ProfilePhoto {
-    width: 200px;
-    height: 200px;
-    margin-right: 0;
   }
 
   .message {
