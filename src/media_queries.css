@@ -369,6 +369,10 @@
     padding: 10% 5% 5% 5%;
   }
 
+  .arrow {
+    display: none;
+  }
+
   .cards-row {
     width: 100vw;
     margin: 0 auto;
