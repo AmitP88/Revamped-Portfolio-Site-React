@@ -15,13 +15,14 @@ class ToolBar extends Component {
           <div className="spacer" />
           <div className="ToolBar-navigation-items">
             <ul>
-              <li><a href='/'>Skills</a></li>
-              <li><a href='/'>Projects</a></li>
-              <li><a href='/'>Certifications</a></li>
-              <li><a href='/'>About Me</a></li>
-            </ul>        
+              <li><a href='#TitlePage'>Title</a></li>
+              <li><a href='#Skills'>Skills</a></li>
+              <li><a href='#Projects'>Projects</a></li>
+              <li><a href='#Certifications'>Certifications</a></li>
+              <li><a href='#AboutMe'>About Me</a></li>
+            </ul>
           </div>
-        </nav>      
+        </nav>
       </header>
     );    
   }

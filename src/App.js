@@ -43,11 +43,11 @@ class App extends Component {
         <ToolBar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <TitlePage buttonName="Skills" />
-        <Skills buttonName="Projects" />
-        <Projects buttonName="Certifications" />
-        <Certifications />
-        <AboutMe />
+        <TitlePage buttonName="Skills" id="TitlePage" />
+        <Skills buttonName="Projects" id="Skills" />
+        <Projects buttonName="Certifications" id="Projects" />
+        <Certifications id="Certifications" />
+        <AboutMe id="AboutMe" />
         <hr className="aboutme-hr" />
         <Footer />
       </div>
