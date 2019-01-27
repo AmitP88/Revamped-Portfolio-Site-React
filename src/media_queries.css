@@ -231,23 +231,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .ToolBar-navigation-items {
-    display: initial;
-  }
-
-  .side-drawer {
-    display: none;
-  }
-
-  .toolbar-toggle-button {
-    display: none;
-  }
-
-  .ToolBar-logo {
-    display: initial;
-    margin-left: 0;
-  }
-
   .animated {
     margin-left: 2.5%;
   }
@@ -344,6 +327,23 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .ToolBar-navigation-items {
+    display: initial;
+  }
+
+  .side-drawer {
+    display: none;
+  }
+
+  .toolbar-toggle-button {
+    display: none;
+  }
+
+  .ToolBar-logo {
+    display: initial;
+    margin-left: 0;
+  }
+
   .animated {
     margin-left: 2.5%;
   }
