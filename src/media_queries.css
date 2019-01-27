@@ -1,5 +1,9 @@
 @media only screen and (min-width: 320px) {
   /* TitlePage */
+  .ToolBar-navigation-items, .ToolBar-logo {
+    display: none;
+  }
+
   .title {
     font-size: 10vw;
   }
@@ -227,6 +231,23 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .ToolBar-navigation-items {
+    display: initial;
+  }
+
+  .side-drawer {
+    display: none;
+  }
+
+  .toolbar-toggle-button {
+    display: none;
+  }
+
+  .ToolBar-logo {
+    display: initial;
+    margin-left: 0;
+  }
+
   .animated {
     margin-left: 2.5%;
   }
