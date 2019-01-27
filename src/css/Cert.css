@@ -49,8 +49,19 @@
   margin-right: 20px;
 }
 
-.AlgoCert-button-white::after {
+.AlgoCert-button-white::after,
+.cert-button-white::after {
   background-color: white;
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
 }
 
 .cert-button-white {
@@ -74,10 +85,6 @@
   left: 0;
   z-index: -1;
   transition: all .4s;
-}
-
-.cert-button-white::after {
-  background-color: white;
 }
 
 .cert-button:hover::after {
