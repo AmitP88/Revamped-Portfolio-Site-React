@@ -12,6 +12,12 @@
     font-size: 5.5vw;
   }
 
+  .typewriter {
+    animation: 
+      typing 1.8s steps(30, end),
+      blink-caret 1s step-end infinite;      
+  }
+
   /* Skills */
   .Skills-title {
     letter-spacing: 10px;
@@ -237,6 +243,14 @@
     padding-left: 5%;
     padding-right: 5%;
   }
+}
+
+@media only screen and (min-width: 500px) {
+  .typewriter {
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret 1s step-end infinite;      
+  }  
 }
 
 @media only screen and (min-width: 768px) {
