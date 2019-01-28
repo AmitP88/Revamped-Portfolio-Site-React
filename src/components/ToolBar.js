@@ -4,9 +4,29 @@ import '../css/ToolBar.css';
 import DrawerToggleButton from '../components/DrawerToggleButton';
 
 class ToolBar extends Component {
+  state = {
+    backgroundColor: 'transparent'
+  }
+
+  listenScrollEvent = (e) => {
+    if (window.scrollY > 700) {
+      this.setState({
+        backgroundColor: 'black'
+      });
+    } else {
+      this.setState({
+        backgroundColor: 'transparent'
+      });
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent);
+  }
+
   render() {
     return (
-      <header className="ToolBar">
+      <header className="ToolBar" style={{backgroundColor: this.state.backgroundColor}}>
         <nav className="ToolBar-navigation">
           <div className="toolbar-toggle-button">
             <DrawerToggleButton click={this.props.drawerClickHandler} />
