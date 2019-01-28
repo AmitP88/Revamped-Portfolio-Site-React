@@ -32,7 +32,7 @@ export default class Projects extends Component {
         }
 
         return (
-            <div className="Projects-container">
+            <div className="Projects-container" id="Projects">
                 <Animated className="projects-animated" animationIn="fadeInDown" isVisible={true}>
                     <h1 className="Projects-title">PROJECTS</h1>
                 </Animated>

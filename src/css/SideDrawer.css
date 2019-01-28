@@ -47,7 +47,7 @@
   background-color: #4682B4; /* steelblue */ 
 }
 
-.side-drawer li:hover a {
+.side-drawer a:hover li {
   color: ghostwhite;
 }
 

@@ -5,7 +5,7 @@ import '../css/TitlePage.css';
 export default class TitlePage extends Component {
     render(){
         return (
-            <div className="titlePage">
+            <div className="titlePage" id="Title">
                 <Animated animationIn="fadeInUp" isVisible={true}>
                     <h1 className="title">AMIT PATEL</h1>         
                 </Animated>

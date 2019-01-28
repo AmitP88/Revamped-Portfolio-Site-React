@@ -24,7 +24,7 @@ const logos = {
 export default class Skills extends Component {
     render(){
         return (
-            <div className="Skills-container"  id="Skills">
+            <div className="Skills-container" id="Skills">
                 <Animated className="skills-animated" animationIn="fadeInDown" isVisible={true}>
                     <h1 className="Skills-title">SKILLS</h1>
                 </Animated>

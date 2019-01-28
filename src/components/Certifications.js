@@ -7,7 +7,7 @@ import certificationData from '../data/certificationsData';
 export default class Certifications extends Component {
   render(){
     return (
-      <div className="certifications-container">
+      <div className="certifications-container" id="Certifications">
         <h1 className="certifications-title">CERTIFICATIONS</h1>
         <div className="cert-pair">
           <Cert 
