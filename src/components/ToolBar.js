@@ -9,7 +9,7 @@ class ToolBar extends Component {
   }
 
   listenScrollEvent = (e) => {
-    if (window.scrollY > 700) {
+    if (window.scrollY > 200) {
       this.setState({
         backgroundColor: 'black'
       });
