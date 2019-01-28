@@ -48,7 +48,7 @@
 
 .toolbar-toggle-button {
   position: fixed;
-  right: 2rem;
+  left: 2rem;
 }
 
 .toolbar-toggle-button:hover .toggle-button .toggle-button-line {
