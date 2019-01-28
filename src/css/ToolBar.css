@@ -46,6 +46,11 @@
   color: crimson;
 }
 
+.toolbar-toggle-button {
+  position: fixed;
+  right: 2rem;
+}
+
 .toolbar-toggle-button:hover .toggle-button .toggle-button-line {
   background-color: crimson;
 }
