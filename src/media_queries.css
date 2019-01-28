@@ -46,6 +46,12 @@
     font-size: 5vw;
   }
 
+  .JavaScript-name {
+    width: 100px;
+    position: relative;
+    left: -18px;
+  }
+
   /* Projects */
   .Projects-container {
     padding-bottom: 5%;
@@ -159,6 +165,10 @@
     font-size: 4.5vw;
   }
 
+  .JavaScript-name {
+    /* font-size: 3.5vw; */
+  }
+
   .description {
     padding: 7px;
   }
@@ -190,6 +200,10 @@
 
   .Skill-name {
     font-size: 16px;
+  }
+
+  .JavaScript-name {
+    left: -10px;
   }
 
   .Projects-title {
@@ -347,6 +361,10 @@
     width: 100px;
     height: 100px;
     margin: 35px;
+  }
+
+  .JavaScript-name {
+    left: 2px;
   }
 
   .Skills-Img {
