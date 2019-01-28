@@ -8,6 +8,7 @@ const SideDrawer = (props) => {
     }
     return (
       <nav className={drawerClasses}>
+        <button className="closeButton" onClick={props.click}>&#10006;</button>        
         <ul>
           <li><a href='#TitlePage'>Title</a></li>
           <li><a href='#Skills'>Skills</a></li>

@@ -41,7 +41,7 @@ class App extends Component {
     return (
       <div className="App">
         <ToolBar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />
+        <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
         {backdrop}
         <TitlePage buttonName="Skills" id="TitlePage" />
         <Skills buttonName="Projects" id="Skills" />
