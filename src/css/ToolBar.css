@@ -43,9 +43,9 @@
 
 .ToolBar-navigation-items a:hover,
 .ToolBar-logo a:hover {
-  color: #85144b;
+  color: crimson;
 }
 
 .toolbar-toggle-button:hover .toggle-button .toggle-button-line {
-  background-color: #85144b;
+  background-color: crimson;
 }
