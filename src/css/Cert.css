@@ -102,13 +102,13 @@
   font-size: 15px;
   outline: none;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .cert-button-lightgreen::after {
   background: green;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, green, rgb(96, 156, 96));  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, green, rgb(96, 156, 96)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   content: "";
   display: inline-block;
   height: 100%;
@@ -143,4 +143,12 @@
 .styles_modal__gNwvD {
   background: cadetblue;
   text-align: center;
+}
+
+button.styles_closeButton__20ID4:hover {
+  cursor: pointer;
+}
+
+button.styles_closeButton__20ID4:focus {
+  outline: none;
 }
