@@ -4,7 +4,7 @@
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   letter-spacing: 1px;
   height: 100%;
 }
@@ -110,6 +110,8 @@ html, body {
 }
 
 .row {
+  width: 100%;
+  padding-bottom: 10%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

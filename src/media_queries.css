@@ -31,11 +31,6 @@
     padding-top: 5%;
   }
 
-  .row {
-    width: 100vw;
-    padding-bottom: 10%;
-  }
-
   .Skill {
     width: 60px;
     height: 60px;
@@ -63,7 +58,7 @@
   }
 
   .cards-row {
-    width: 90vw;
+    width: 90%;
     margin: 5%;
   }
 
@@ -374,7 +369,7 @@
   }
 
   .cards-row {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
   }
 

@@ -1,5 +1,5 @@
 .Projects-container {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-image: url('../images/projectSectionBackground.jpg');
     box-shadow: inset 0 0 0 1000px rgba(240, 248, 255, .8);
