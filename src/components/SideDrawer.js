@@ -10,11 +10,11 @@ const SideDrawer = (props) => {
       <nav className={drawerClasses}>
         <button className="closeButton" onClick={props.click}>&#10006;</button>        
         <ul>
-          <a href='#Title'><li>Title</li></a>
-          <a href='#Skills'><li>Skills</li></a>
-          <a href='#Projects'><li>Projects</li></a>
-          <a href='#Certifications'><li>Certifications</li></a>
-          <a href='#AboutMe'><li>About Me</li></a>
+          <a href='#Title' onClick={props.click}><li>Title</li></a>
+          <a href='#Skills' onClick={props.click}><li>Skills</li></a>
+          <a href='#Projects' onClick={props.click}><li>Projects</li></a>
+          <a href='#Certifications' onClick={props.click}><li>Certifications</li></a>
+          <a href='#AboutMe' onClick={props.click}><li>About Me</li></a>
         </ul>
       </nav>
     );
