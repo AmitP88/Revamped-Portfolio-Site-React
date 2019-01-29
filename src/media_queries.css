@@ -234,6 +234,18 @@
   }
 }
 
+@media only screen and (min-width: 500px) {
+  .typewriter {
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret 1s step-end infinite;      
+  }
+
+  .message {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (min-width: 667px) and (max-width: 767px) {
   .Skills-title {
     padding-top: 15%;
@@ -243,14 +255,6 @@
     padding-left: 5%;
     padding-right: 5%;
   }
-}
-
-@media only screen and (min-width: 500px) {
-  .typewriter {
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret 1s step-end infinite;      
-  }  
 }
 
 @media only screen and (min-width: 768px) {
@@ -306,12 +310,17 @@
   }
 
   .ProfilePhoto {
-    width: 175px;
-    height: 175px;
+    width: 135px;
+    height: 135px;
+  }
+
+  .ProfilePhoto-title {
+    width: max-content;
   }
 
   .message {
-    font-size: 17px;
+    position: relative;
+    bottom: 10%;
     width: 75%;
     margin: 0 auto;
     padding: 5%;
@@ -410,19 +419,23 @@
   }
 
   .About-Me {
-    height: 26vh;
+    height: 30vh;
     padding-top: 15%;
   }
 
+  .ProfilePhoto-container {
+    padding-left: 5%;
+  }
+
   .ProfilePhoto {
-    width: 175px;
-    height: 175px;
-    margin-right: 0;
+    width: 150px;
+    height: 150px;
   }
 
   .message {
-    font-size: 1.8vw;
+    font-size: 23px;
     width: 62%;
+    bottom: 0;
   }
 
 }
@@ -463,11 +476,11 @@
     width: 75%;
   }
 
-  .message {
-    font-size: 1.5vw;
+  /* .message {
+    font-size: 25px;
     width: 60%;
     padding: 0;
-  }
+  } */
 
   .ending-statement {
     padding: 2% 0 2% 0;

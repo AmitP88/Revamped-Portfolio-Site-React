@@ -15,3 +15,15 @@
   border-radius: 50%;
   border: 5px white solid;
 }
+
+.first-last-name, .ProfilePhoto-title {
+  text-align: center;
+}
+
+.first-last-name {
+  margin-bottom: 1px;
+}
+
+.ProfilePhoto-title {
+  margin-top: 1px;
+}
