@@ -49,7 +49,7 @@
   margin-right: 20px;
 }
 
-.AlgoCert-button-white::after,
+/* .AlgoCert-button-white::after,
 .cert-button-white::after {
   background-color: white;
   content: "";
@@ -62,7 +62,7 @@
   left: 0;
   z-index: -1;
   transition: all .4s;
-}
+} */
 
 .cert-button-white {
   background-color: white;
@@ -74,8 +74,8 @@
   margin-right: 20px;
 }
 
-.cert-button::after {
-  /* content: ""; */
+/* .cert-button::after {
+  content: "";
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -85,12 +85,12 @@
   left: 0;
   z-index: -1;
   transition: all .4s;
-}
+} */
 
-.cert-button:hover::after {
+/* .cert-button:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
-}
+} */
 
 .cert-button-lightgreen {
   color: ghostwhite;
@@ -105,10 +105,10 @@
   cursor: pointer;
 }
 
-.cert-button-lightgreen::after {
-  background: green;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, green, rgb(96, 156, 96));  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, green, rgb(96, 156, 96)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* .cert-button-lightgreen::after {
+  background: green;
+  background: -webkit-linear-gradient(to right, green, rgb(96, 156, 96));
+  background: linear-gradient(to right, green, rgb(96, 156, 96));
   content: "";
   display: inline-block;
   height: 100%;
@@ -119,7 +119,7 @@
   left: 0;
   z-index: -1;
   transition: all .4s;
-}
+} */
 
 .cert-link:link,
 .cert-link:visited {

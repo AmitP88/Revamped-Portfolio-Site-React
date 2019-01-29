@@ -76,7 +76,7 @@ html, body {
   font-size: 14px;
 }
 
-.btn::after {
+/* .btn::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -91,18 +91,19 @@ html, body {
 
 .btn-white::after {
   background-color: white;
+} */
+
+/* .btn-green::after {
+  background: #06beb6;
+  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);
+  background: linear-gradient(to right, #48b1bf, #06beb6);
 }
 
-.btn-green::after {
-  background: #06beb6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
-}
+} */
 
 .btn-animated {
   animation: moveInBottom .5s ease-out 3s;
