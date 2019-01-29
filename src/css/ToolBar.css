@@ -39,6 +39,7 @@
 .ToolBar-navigation-items a {
   color: ghostwhite;
   text-decoration: none;
+  font-size: large;
 }
 
 .ToolBar-navigation-items a:hover,
