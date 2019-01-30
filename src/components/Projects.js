@@ -19,7 +19,7 @@ export default class Projects extends Component {
             pomodoro : ['HTML5', 'CSS3', 'JavaScript(ES6)', 'SVG'],
             khmerfamilycafe: ['HTML5', 'CSS3', 'Flickity API', 'Bootstrap', 'JavaScript(ES5)'],
             heatmap: ['HTML5', 'CSS3', 'D3', 'JavaScript(ES6)'],
-            wikiviewer: ['HTML5', 'CSS3', 'jQuery', 'AJAX']
+            wikiviewer: ['HTML5', 'CSS3', 'jQuery', 'AJAX', 'MediaWiki API']
         }
 
         const techList = {
