@@ -20,7 +20,7 @@ export default class AlgoCert extends Component {
     return (
       <div className="cert-container">
         <div className="cert">
-          <img className="certImg" src={this.props.certImg} alt=""/>
+          <img className="certImg" src={this.props.certImg} alt="cert-background-img"/>
           <button onClick={this.onOpenModal} className="cert-link cert-button cert-button-lightgreen" target="_blank" rel="noopener noreferrer">PROJECTS</button>       
         </div>
         <Modal open={open} onClose={this.onCloseModal} center>
