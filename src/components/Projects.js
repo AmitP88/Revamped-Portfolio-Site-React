@@ -73,8 +73,8 @@ export default class Projects extends Component {
                             projectName='Grizzlyfest website'
                             description='A client website I revamped for MiddleState, LLC web design company.'
                             techUsed={techList.grizzlyfest}
-                            demoLink={'http://www.khmerfamilycafe.com/'}
-                            repoLink={'https://github.com/AmitP88/Khmer-Family-Cafe'}
+                            demoLink={'https://grizzlyfestival.com/'}
+                            // repoLink={'https://github.com/AmitP88/Khmer-Family-Cafe'}
                         />
                         <ProjectCard 
                             screenshot={HeatMap}

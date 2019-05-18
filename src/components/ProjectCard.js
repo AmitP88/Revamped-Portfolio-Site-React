@@ -24,9 +24,13 @@ export default class ProjectCard extends Component {
                 <div className="Card-Demo-button">
                     <a href={this.props.demoLink} className="btn btn-white" target="_blank" rel="noopener noreferrer">Demo</a>                
                 </div>
-                <div className="Card-Repo-button">
+                {this.props.repoLink ? 
+                  <div className="Card-Repo-button">
                     <a href={this.props.repoLink} className="btn btn-white" target="_blank" rel="noopener noreferrer">Repo</a>                
-                </div> 
+                  </div>
+                  :
+                  ''
+                }
             </div>
           </div>
         </div>
