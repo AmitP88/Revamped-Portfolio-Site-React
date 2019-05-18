@@ -8,7 +8,7 @@ import TicTacToe from '../images/TicTacToe.png';
 import Simon from '../images/Simon.png';
 import Pomodoro from '../images/Pomodoro.png';
 import Grizzlyfest from '../images/grizzlyfest-site.png';
-import HeatMap from '../images/HeatMap.png';
+import CellarDoor from '../images/cellardoor-website.png';
 import WikiViewer from '../images/WikiViewer.png';
 
 export default class Projects extends Component {
@@ -18,7 +18,7 @@ export default class Projects extends Component {
             simon : ['React', 'Redux', 'CSS3', 'JavaScript(ES6)'],
             pomodoro : ['HTML5', 'CSS3', 'JavaScript(ES6)', 'SVG'],
             grizzlyfest: ['Jade/Pug', 'Stylus'],
-            heatmap: ['HTML5', 'CSS3', 'D3', 'JavaScript(ES6)'],
+            cellardoor: ['HTML5', 'CSS3', 'JavaScript(ES6)'],
             wikiviewer: ['HTML5', 'CSS3', 'jQuery', 'AJAX', 'MediaWiki API']
         }
 
@@ -27,7 +27,7 @@ export default class Projects extends Component {
             simon : projectTech.simon.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             pomodoro : projectTech.pomodoro.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             grizzlyfest : projectTech.grizzlyfest.map((item, index) => <li key={index} className="techListItem">{item}</li>),
-            heatmap : projectTech.heatmap.map((item, index) => <li key={index} className="techListItem">{item}</li>),
+            cellardoor : projectTech.cellardoor.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             wikiviewer : projectTech.wikiviewer.map((item, index) => <li key={index} className="techListItem">{item}</li>)
         }
 
@@ -77,12 +77,12 @@ export default class Projects extends Component {
                             // repoLink={'https://github.com/AmitP88/Khmer-Family-Cafe'}
                         />
                         <ProjectCard 
-                            screenshot={HeatMap}
-                            projectName='D3 Heat Map'
-                            description='A graph developed using D3.js representing the gradual increase of global temperatures over the past 250 years.'
-                            techUsed={techList.heatmap}
-                            demoLink={'https://amitp88.github.io/D3-Heat-Map/'}
-                            repoLink={'https://github.com/AmitP88/D3-Heat-Map'}
+                            screenshot={CellarDoor}
+                            projectName='Cellar Door website'
+                            description='A client website I developed for MiddleState, LLC web design company.'
+                            techUsed={techList.cellardoor}
+                            demoLink={'https://cellardoor101.com/'}
+                            // repoLink={'https://github.com/AmitP88/D3-Heat-Map'}
                         />
                         <ProjectCard 
                             screenshot={WikiViewer}
