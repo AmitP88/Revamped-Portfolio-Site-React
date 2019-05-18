@@ -7,7 +7,7 @@ import ProjectCard from '../components/ProjectCard';
 import TicTacToe from '../images/TicTacToe.png';
 import Simon from '../images/Simon.png';
 import Pomodoro from '../images/Pomodoro.png';
-import KhmerFamilyCafe from '../images/KhmerFamilyCafe.png';
+import Grizzlyfest from '../images/grizzlyfest-site.png';
 import HeatMap from '../images/HeatMap.png';
 import WikiViewer from '../images/WikiViewer.png';
 
@@ -17,7 +17,7 @@ export default class Projects extends Component {
             tictactoe : ['React', 'Redux', 'CSS3', 'JavaScript(ES6)'],
             simon : ['React', 'Redux', 'CSS3', 'JavaScript(ES6)'],
             pomodoro : ['HTML5', 'CSS3', 'JavaScript(ES6)', 'SVG'],
-            khmerfamilycafe: ['HTML5', 'CSS3', 'Flickity API', 'Bootstrap', 'JavaScript(ES5)'],
+            grizzlyfest: ['Jade/Pug', 'Stylus'],
             heatmap: ['HTML5', 'CSS3', 'D3', 'JavaScript(ES6)'],
             wikiviewer: ['HTML5', 'CSS3', 'jQuery', 'AJAX', 'MediaWiki API']
         }
@@ -26,7 +26,7 @@ export default class Projects extends Component {
             tictactoe : projectTech.tictactoe.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             simon : projectTech.simon.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             pomodoro : projectTech.pomodoro.map((item, index) => <li key={index} className="techListItem">{item}</li>),
-            khmerfamilycafe : projectTech.khmerfamilycafe.map((item, index) => <li key={index} className="techListItem">{item}</li>),
+            grizzlyfest : projectTech.grizzlyfest.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             heatmap : projectTech.heatmap.map((item, index) => <li key={index} className="techListItem">{item}</li>),
             wikiviewer : projectTech.wikiviewer.map((item, index) => <li key={index} className="techListItem">{item}</li>)
         }
@@ -69,11 +69,10 @@ export default class Projects extends Component {
                     </div>
                     <div className="cards-row">
                         <ProjectCard 
-                            screenshot={KhmerFamilyCafe}
-                            projectName='Restaurant website'
-                            description='A website I made for the owner of a cambodian restaurant
-                                         called Khmer Family Cafe located in Fresno, CA.'
-                            techUsed={techList.khmerfamilycafe}
+                            screenshot={Grizzlyfest}
+                            projectName='Grizzlyfest website'
+                            description='A client website I revamped for MiddleState, LLC web design company.'
+                            techUsed={techList.grizzlyfest}
                             demoLink={'http://www.khmerfamilycafe.com/'}
                             repoLink={'https://github.com/AmitP88/Khmer-Family-Cafe'}
                         />
